@@ -23,6 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        ls -al
         pip install -r requirements.txt
 
     - name: Run Python script to download and convert Excel to ICS
