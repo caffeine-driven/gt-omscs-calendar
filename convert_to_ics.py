@@ -24,33 +24,40 @@ calendar = Calendar()
 for _, row in df.iterrows():
     event = Event()
     event.name = row['Title']
+
+    # Parse the date (format is "%m/%d/%Y")
+    start_date = datetime.strptime(row['Date'], "%m/%d/%Y").date()
     
-    # Check if Time is null; if so, create an all-day event
-    if pd.isna(row['Time']):
-        # Handle all-day event by setting only the date
-        event.begin = datetime.strptime(f"{row['Date']}", "%Y-%m-%d").date()  # Only date for all-day event
+    if pd.isna(row['Time']):  # If start time is null, treat as an all-day event
+        event.begin = start_date
         event.make_all_day()
     else:
-        # If Time is not null, create an event with specific time
-        event.begin = datetime.strptime(f"{row['Date']} {row['Time']}", "%Y-%m-%d %H:%M")
+        # If there's a specific time, parse it (assumes time is in "%H:%M" format)
+        event.begin = datetime.strptime(f"{row['Date']} {row['Time']}", "%m/%d/%Y %H:%M")
     
-    # Handle end date and time (optional)
-    if pd.notna(row['EndDate']) and pd.isna(row['EndTime']):
-        # If only EndDate is present but EndTime is null, consider it an all-day event
-        event.end = datetime.strptime(f"{row['EndDate']}", "%Y-%m-%d").date()
-        event.make_all_day()
-    elif pd.notna(row['EndDate']) and pd.notna(row['EndTime']):
-        # If both EndDate and EndTime are present, set them
-        event.end = datetime.strptime(f"{row['EndDate']} {row['EndTime']}", "%Y-%m-%d %H:%M")
-    
-    event.description = row['Body']
-    event.location = row['Location']
-    
-    # Add event to calendar
+    # Handle end time and end date
+    if pd.notna(row['EndDate']):
+        end_date = datetime.strptime(row['EndDate'], "%m/%d/%Y").date()
+        
+        if pd.isna(row['EndTime']):  # If end time is null, treat as an all-day event
+            event.end = end_date
+            event.make_all_day()
+        else:
+            # If end time is available, parse it
+            event.end = datetime.strptime(f"{row['EndDate']} {row['EndTime']}", "%m/%d/%Y %H:%M")
+    else:
+        # If no EndDate, assume it is a one-day event with no specific end time
+        event.end = event.begin
+
+    # Add additional fields such as description and location
+    event.description = row['Body'] if pd.notna(row['Body']) else ""
+    event.location = row['Location'] if pd.notna(row['Location']) else ""
+
+    # Add the event to the calendar
     calendar.events.add(event)
 
 # Save the calendar to an ICS file
-output_file = 'output/academic_calendar.ics'
+output_file = 'academic_calendar.ics'
 with open(output_file, 'w') as ics_file:
     ics_file.writelines(calendar)
 
