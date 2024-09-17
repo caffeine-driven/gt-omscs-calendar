@@ -8,7 +8,7 @@ url = 'https://func-calendarxlsx-prod-001.azurewebsites.net/api/getExcel?termCod
 
 # Download the Excel file
 response = requests.get(url)
-excel_file_path = 'data/academic_calendar.xlsx'
+excel_file_path = 'academic_calendar.xlsx'
 
 # Save the Excel file locally
 with open(excel_file_path, 'wb') as file:
