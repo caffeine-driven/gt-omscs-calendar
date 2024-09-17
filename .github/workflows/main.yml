@@ -23,7 +23,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        ls -al
         pip install -r requirements.txt
 
     - name: Run Python script to download and convert Excel to ICS
@@ -33,7 +32,8 @@ jobs:
       run: |
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Action"
-        git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
         git add academic_calendar.ics
         git commit -m "Update academic calendar ICS file"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the built-in GitHub token for authentication
