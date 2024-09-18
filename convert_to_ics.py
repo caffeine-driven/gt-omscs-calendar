@@ -55,7 +55,7 @@ def convert_excel_to_ics(excel_file_path: str, output_ics_path: str):
             # Calculate the duration of the event in days
             duration = (end_date - start_date).days
             
-            if duration > 30:
+            if duration > 40:
                 # Split the event into two separate events for the start and end dates
 
                 # Create the first event for the start date
