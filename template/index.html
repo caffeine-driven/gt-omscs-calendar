@@ -9,11 +9,9 @@
 <h1>Subscribable Georgia Tech Academic Calendar</h1>
 <p>
     Download the academic calendar in ICS format:
-    
-    <a href="output/academic_calendar_202408.ics">Spring 2024</a>
-    
-    <a href="output/academic_calendar_202502.ics">Spring 2025</a>
-    
+    {% for cal in items %}
+    <a href="{{ cal.path }}">{{ cal.name }}</a>
+    {% endfor %}
 </p>
 </body>
 </html>
