@@ -58,46 +58,39 @@ def convert_excel_to_ics(excel_file_path: str):
         else:
             end_time = datetime.strptime(row['EndTime'], "%H:%M").time()
 
-            # Calculate the duration of the event in days
-        if not end_time:
+        # Calculate the duration of the event in days
+        duration = (end_date - start_date).days
+
+        if end_date and duration > 40:
+            # Split the event into two separate events for the start and end dates
+
+            # Create the first event for the start date
             event_start = create_single_day_event(
                 f"{row['Title']} (Start)", start_date,
                 row['Body'] if pd.notna(row['Body']) else "",
                 row['Location'] if pd.notna(row['Location']) else ""
             )
+            calendar.events.add(event_start)
+
+            # Create the second event for the end date
+            event_end = create_single_day_event(
+                f"{row['Title']} (End)",
+                end_date,
+                row['Body'] if pd.notna(row['Body']) else "",
+                row['Location'] if pd.notna(row['Location']) else "",
+            )
+            calendar.events.add(event_end)
         else:
-            duration = (end_date - start_date).days
-
-            if duration > 40:
-                # Split the event into two separate events for the start and end dates
-
-                # Create the first event for the start date
-                event_start = create_single_day_event(
-                    f"{row['Title']} (Start)", start_date,
-                    row['Body'] if pd.notna(row['Body']) else "",
-                    row['Location'] if pd.notna(row['Location']) else ""
-                )
-                calendar.events.add(event_start)
-
-                # Create the second event for the end date
-                event_end = create_single_day_event(
-                    f"{row['Title']} (End)",
-                    end_date,
-                    row['Body'] if pd.notna(row['Body']) else "",
-                    row['Location'] if pd.notna(row['Location']) else "",
-                )
-                calendar.events.add(event_end)
-            else:
-                event = Event()
-                event.name = row['Title']
-                # If the event is 10 days or shorter, create a single event
-                event = create_multi_day_event(
-                    f"{row['Title']} (Start)",
-                    start_date, start_time, end_date, end_time,
-                    row['Body'] if pd.notna(row['Body']) else "",
-                    row['Location'] if pd.notna(row['Location']) else ""
-                )
-                calendar.events.add(event)
+            event = Event()
+            event.name = row['Title']
+            # If the event is 10 days or shorter, create a single event
+            event = create_multi_day_event(
+                row['Title'],
+                start_date, start_time, end_date, end_time,
+                row['Body'] if pd.notna(row['Body']) else "",
+                row['Location'] if pd.notna(row['Location']) else ""
+            )
+            calendar.events.add(event)
 
     return calendar
 
@@ -124,10 +117,10 @@ def create_multi_day_event(
         event.begin = datetime.combine(start_date, start_time)
 
     if not end_time:
-        event.begin = end_date
+        event.end = end_date
         event.make_all_day()
     else:
-        event.begin = datetime.combine(end_date, end_time)
+        event.end = datetime.combine(end_date, end_time)
     event.description = description
     event.location = location
     return event
