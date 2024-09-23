@@ -2,282 +2,282 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241214
-DTEND;VALUE=DATE:20241214
-SUMMARY:Commencement
-UID:a6a4202e-6943-4cd8-8d3b-27d36fc52a1d@a6a4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:"Last day to register\, make schedule changes\, and/or drop courses without a 'W' grade for Fall Semester 2024 by 4:00 pm ET.  No changes to audit mode permitted after the registration/schedule change deadline."
-DTEND:20240823T160000Z
-DTSTART:20240823T160000Z
-SUMMARY:Registration Schedule Change Deadline
-UID:ad90cf0c-307f-4d7c-aada-d312c94f56d2@ad90.org
+DTSTART;VALUE=DATE:20240823
+DTEND;VALUE=DATE:20240823
+SUMMARY:Deadline for Graduate Students to Apply for Graduation
+UID:deecf162-487a-4197-a691-757f2a17160a@deec.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241128
 DTEND;VALUE=DATE:20241129
 DESCRIPTION:Thanksgiving Break
 SUMMARY:Official School Holiday
-UID:0b1ce196-1152-4e01-b150-c9a91f7d7c71@0b1c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240902
-DTEND;VALUE=DATE:20240902
-DESCRIPTION:Labor Day
-SUMMARY:Official School Holiday
-UID:e86eb14c-509f-4a9d-bfdf-2d4218a5e879@e86e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241223
-DTEND;VALUE=DATE:20241227
-DESCRIPTION:Campus Closed
-SUMMARY:Winter Break
-UID:b4e48199-0e63-4f13-a8c4-a348adbf2935@b4e4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240122
-SUMMARY:Online Application for Graduation for Graduate Students (Start)
-UID:b1ae555f-de67-450f-a2c0-a27bffd27472@b1ae.org
+UID:16e19400-d0cb-4ff9-956b-83f07198b5b6@16e1.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240701
 DTEND;VALUE=DATE:20240701
 DESCRIPTION:"Deadline for readmission applicants with an academic standing of drop or review was June 1\, 2024."
 SUMMARY:Readmission Application Deadline
-UID:09b23e2d-45da-4a8a-ad6a-1549f3a218d1@09b2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240819
-DTEND;VALUE=DATE:20240819
-SUMMARY:First Day of Classes
-UID:eca4abda-a990-4121-b4ee-d68517412e56@eca4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241213
-DTEND;VALUE=DATE:20241213
-SUMMARY:Commencement
-UID:45ea3b17-75d4-4f24-8ce1-ca31acb65315@45ea.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241026
-DTEND;VALUE=DATE:20241026
-DESCRIPTION:"Last day to apply for grade substitution. Forms accepted through the following Monday\, October 28\, 2024 by 4:00 PM Eastern Time"
-SUMMARY:Grade Substitution Deadline
-UID:4f2c3112-e194-43f6-913e-e96283515d04@4f2c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240828
-DTEND;VALUE=DATE:20240903
-DESCRIPTION:"Instructors are required to verify student participation in all classes that started on 8/21. Reports due at 4:00 PM EDT."
-SUMMARY:Verification of Student Participation in Class - Faculty Only
-UID:3f93dcb7-456d-4df2-9d8a-d22d11b5159a@3f93.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240715
-DTEND;VALUE=DATE:20240715
-DESCRIPTION:Last day to apply for Cross Registration for Fall Semester 2024.
-SUMMARY:Cross Registration Application Deadline
-UID:9090dd27-2d97-4015-829f-1a46c75ef814@9090.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240801
-DTEND;VALUE=DATE:20240801
-DESCRIPTION:"Requests for waivers will be accepted through Monday\, August 1st at 4:00pm ET.   All decisions will be sent after deadline."
-SUMMARY:Deadline for Out-of-State Tuition Classification Waivers
-UID:06726803-dde7-458b-bab7-a6f8e644e6f5@0672.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241219
-DTEND;VALUE=DATE:20241219
-DESCRIPTION:Diplomas will be delivered within 8 weeks.
-SUMMARY:Degree Confirmation Date for Fall Candidates
-UID:d4ac67c2-5802-44f5-8c68-9bdfa0eb8a5b@d4ac.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240812
-DTEND;VALUE=DATE:20240823
-DESCRIPTION:"Registration ends at 4:00 pm Eastern Time August 23rd.  Schedule changes and drop courses without a 'W' grade."
-SUMMARY:Phase II Registration - All Students
-UID:1e71ad7b-fbf9-468e-bcb5-ecec035e2572@1e71.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240701
-DTEND;VALUE=DATE:20240701
-SUMMARY:Deadline to Request Leave of Absence for Fall 2024
-UID:e7af6bb4-3626-43d2-8194-8dc3c96b1dd4@e7af.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240823
-DTEND;VALUE=DATE:20240823
-SUMMARY:Deadline for Graduate Students to Apply for Graduation
-UID:399142e6-3190-4a8e-8912-2189de4baa57@3991.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Time tickets will post for all eligible students by 6:00 pm Eastern Time.
-DTEND:20240808T180000Z
-DTSTART:20240808T180000Z
-SUMMARY:Time Tickets for Phase II
-UID:bd1773bf-e647-4af0-9c67-4629d6215558@bd17.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:All grades must be entered online by noon Eastern Time.
-DTEND:20241216T120000Z
-DTSTART:20241216T120000Z
-SUMMARY:Grade Submission Deadline
-UID:5b1533db-0e7e-44ee-bb69-1bba205ab29c@5b15.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240816
-DESCRIPTION:"August 17th – 23rd – Received Late – Department may not be able to review before Phase II closes."
-SUMMARY:Online Application for Graduation for Undergraduate Students (End)
-UID:5d30fbe3-6ee9-47b9-a528-8c734debce6e@5d30.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240816
-DTEND;VALUE=DATE:20240816
-DESCRIPTION:"August 16th – 23rd – Received Late – Department may not be able to review before Phase II closes."
-SUMMARY:Deadline for Undergraduate Students to Apply for Graduation
-UID:eb97817c-4875-4a56-9b37-849e73d405bc@eb97.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241205
-DTEND;VALUE=DATE:20241212
-SUMMARY:Final Exams
-UID:8314c9fb-d777-4fff-b65a-01ca7708f260@8314.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:No exams 8:00am-2:40pm
-DTEND:20241205T144000Z
-DTSTART:20241205T080000Z
-SUMMARY:Reading Period
-UID:055959a0-ce76-4b53-9989-fc3fe709239b@0559.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241212
-DTEND;VALUE=DATE:20241212
-SUMMARY:End of Term
-UID:a1865991-f05e-4d4b-a065-f0fb89e21a2f@a186.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240415
-DTEND;VALUE=DATE:20240415
-DESCRIPTION:Current Students - Registration ends at 4:00 pm Eastern Time May 17th.
-SUMMARY:Phase I Registration
-UID:0126c629-b121-4042-8139-421d3b20dbc7@0126.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:"Last day to withdraw from a single course or from school with W grades for Fall Semester 2024 by 4:00 PM Eastern Time.  Students must withdraw from all classes in order to receive a refund."
-DTEND:20241026T160000Z
-DTSTART:20241026T160000Z
-SUMMARY:Withdrawal Deadline
-UID:a546ff81-9727-4c03-b744-73edbe73432d@a546.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241204
-DTEND;VALUE=DATE:20241204
-DESCRIPTION:No exams all day.
-SUMMARY:Reading Day
-UID:abbc0830-4fb2-4acd-8569-6ffb4d4f132e@abbc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241127
-DTEND;VALUE=DATE:20241127
-DESCRIPTION:No Classes - Campus Open.
-SUMMARY:Student Recess
-UID:2f65bd6b-31db-4342-8744-b023a290514c@2f65.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:All 1000 and 2000 level course grades must be entered online by Noon Eastern Time.
-DTEND:20241007T120000Z
-DTSTART:20241007T120000Z
-SUMMARY:Progress Report Deadline
-UID:54004355-c001-4478-89e6-1b03f04c1c25@5400.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240403
-DTEND;VALUE=DATE:20240403
-SUMMARY:Schedule of Classes Available Online
-UID:44c74f29-760f-40cc-9ee5-2c07bf05ef31@44c7.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Time Tickets will post for all eligible students at 6:00pm Eastern Time.
-DTEND:20240604T180000Z
-DTSTART:20240604T180000Z
-SUMMARY:Time Tickets for OMSCS Phase I Registration
-UID:cb9cec7e-5a09-481e-b2a9-e9d5242f5b53@cb9c.org
+UID:a47ab568-8380-43d6-8f83-182f15957642@a47a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241014
 DTEND;VALUE=DATE:20241015
 DESCRIPTION:No Classes - Campus Open.
 SUMMARY:Fall Break
-UID:60983310-9688-4403-9a50-288c7790b1c1@6098.org
+UID:55378afd-9b52-4c59-85e0-e47c27607cc0@5537.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:No exams 8:00am-2:40pm
-DTEND:20241210T144000Z
-DTSTART:20241210T080000Z
-SUMMARY:Reading Period
-UID:10e9c454-0e36-42c5-83e9-a1e47a251543@10e9.org
+DTSTART;VALUE=DATE:20241204
+DTEND;VALUE=DATE:20241204
+DESCRIPTION:No exams all day.
+SUMMARY:Reading Day
+UID:e68474be-12ad-4939-84a1-db454621c6d9@e684.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240823
-SUMMARY:Online Application for Graduation for Graduate Students (End)
-UID:20328e97-177a-4b91-af76-83bd562e64dc@2032.org
+DTSTART;VALUE=DATE:20240122
+DESCRIPTION:"August 17th – 23rd – Received Late – Department may not be able to review before Phase II closes."
+SUMMARY:Online Application for Graduation for Undergraduate Students (Start)
+UID:da833acf-207b-4a0d-b36f-218ca8f2646c@da83.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Time Tickets will post for all eligible students at 6:00 pm Eastern Time.
 DTEND:20240411T180000Z
 DTSTART:20240411T180000Z
 SUMMARY:Time Tickets for Phase I Registration
-UID:57e1883a-f42e-4295-a36c-ec076f69a6b3@57e1.org
+UID:98771715-cff2-4394-a9c5-a1d604576da3@9877.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Deadline to avoid class cancellation by 4:00 pm Eastern Time.
-DTEND:20240826T160000Z
-DTSTART:20240826T160000Z
-SUMMARY:Payment Deadline
-UID:3eaa6d87-a195-4e25-814a-f33d38be5109@3eaa.org
+DESCRIPTION:No exams 8:00am-2:40pm
+DTEND:20241210T144000Z
+DTSTART:20241210T080000Z
+SUMMARY:Reading Period
+UID:f0bbb672-f28f-451d-a580-314afa254892@f0bb.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240601
 DTEND;VALUE=DATE:20240601
 DESCRIPTION:Readmission application deadline for students with an academic standing of drop or review.  Others applying for readmission see July 1.
 SUMMARY:Readmission Application Deadline
-UID:17fe3c1b-7130-4020-ae9d-503b6cfeb9ab@17fe.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241202
-DTEND;VALUE=DATE:20241203
-SUMMARY:Final Instructional Class Days
-UID:f6151c7f-572e-4184-a701-2ab969445e40@f615.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241026
-DTEND;VALUE=DATE:20241026
-DESCRIPTION:"Deadline to change grade mode from Letter/Grade to Pass/Fail (and vice versa). No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, accepted Monday\, October 28\, 2024 by 4:00 PM Eastern Time"
-SUMMARY:Grade Mode Deadline
-UID:f64c026f-43cc-4599-843a-a8e1f91393e3@f64c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240611
-DTEND;VALUE=DATE:20240703
-DESCRIPTION:Current Students – Registration ends at 4:00pm Eastern Time.
-SUMMARY:OMSCS Registration
-UID:2a4f6bb8-440b-4f8c-a8e5-c3248c3381f2@2a4f.org
+UID:111a5d84-7c5d-4f5e-8fa3-6f982bc20bdc@111a.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Online for students after 6:00 pm Eastern Time.
 DTEND:20241217T180000Z
 DTSTART:20241217T180000Z
 SUMMARY:Grades Available
-UID:7e2884c5-394f-4aa7-a760-0b385f7ce266@7e28.org
+UID:b1a96bad-9c83-4f2e-8d89-9527a02e69c8@b1a9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241213
+DTEND;VALUE=DATE:20241213
+SUMMARY:Commencement
+UID:5dd54932-c929-4ee2-bdce-7fd11e66aa03@5dd5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241223
+DTEND;VALUE=DATE:20241227
+DESCRIPTION:Campus Closed
+SUMMARY:Winter Break
+UID:d9340f29-b4c9-4c70-93db-1aef4e104cfb@d934.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240715
+DTEND;VALUE=DATE:20240715
+DESCRIPTION:Last day to apply for Cross Registration for Fall Semester 2024.
+SUMMARY:Cross Registration Application Deadline
+UID:a153b78e-bb7d-417c-8ed1-8b5efca81295@a153.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240816
+DESCRIPTION:"August 17th – 23rd – Received Late – Department may not be able to review before Phase II closes."
+SUMMARY:Online Application for Graduation for Undergraduate Students (End)
+UID:f71f3980-a20e-4287-ae66-388a208bfe3f@f71f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241127
+DTEND;VALUE=DATE:20241127
+DESCRIPTION:No Classes - Campus Open.
+SUMMARY:Student Recess
+UID:69166ff7-dcd1-4371-a147-03c5e5852c41@6916.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:No exams 8:00am-2:40pm
+DTEND:20241205T144000Z
+DTSTART:20241205T080000Z
+SUMMARY:Reading Period
+UID:40f88258-d731-47c1-aa37-25f01947abc4@40f8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Time tickets will post for all eligible students by 6:00 pm Eastern Time.
+DTEND:20240808T180000Z
+DTSTART:20240808T180000Z
+SUMMARY:Time Tickets for Phase II
+UID:92ca12d3-d87b-4619-a359-fa3c94dc7ecf@92ca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240801
+DESCRIPTION:"Requests for waivers will be accepted through Monday\, August 1st at 4:00pm ET.   All decisions will be sent after deadline."
+SUMMARY:Deadline for Out-of-State Tuition Classification Waivers
+UID:453e1a84-e374-4562-812b-4306def6f5e7@453e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241205
+DTEND;VALUE=DATE:20241212
+SUMMARY:Final Exams
+UID:a41399d7-b91b-4835-b5ae-807172e5edb8@a413.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240701
+DTEND;VALUE=DATE:20240701
+SUMMARY:Deadline to Request Leave of Absence for Fall 2024
+UID:16843204-4679-44c7-bf39-17432fe34f95@1684.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240611
+DTEND;VALUE=DATE:20240703
+DESCRIPTION:Current Students – Registration ends at 4:00pm Eastern Time.
+SUMMARY:OMSCS Registration
+UID:dc815ba7-ffcb-4fd9-8a71-e2ee1da47eb1@dc81.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:"Last day to withdraw from a single course or from school with W grades for Fall Semester 2024 by 4:00 PM Eastern Time.  Students must withdraw from all classes in order to receive a refund."
+DTEND:20241026T160000Z
+DTSTART:20241026T160000Z
+SUMMARY:Withdrawal Deadline
+UID:80398995-dc0c-41c5-aea1-0d8f0ed3030c@8039.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240415
+DTEND;VALUE=DATE:20240415
+DESCRIPTION:Current Students - Registration ends at 4:00 pm Eastern Time May 17th.
+SUMMARY:Phase I Registration
+UID:a0bed00e-5624-49e7-b55b-6e6141052610@a0be.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:"Last day to register\, make schedule changes\, and/or drop courses without a 'W' grade for Fall Semester 2024 by 4:00 pm ET.  No changes to audit mode permitted after the registration/schedule change deadline."
+DTEND:20240823T160000Z
+DTSTART:20240823T160000Z
+SUMMARY:Registration Schedule Change Deadline
+UID:efb672a4-0fdc-402c-b3f0-e7102562fb8a@efb6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240902
+DTEND;VALUE=DATE:20240902
+DESCRIPTION:Labor Day
+SUMMARY:Official School Holiday
+UID:d4ede0a3-a33f-45fd-b92b-7f52957bd005@d4ed.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240812
+DTEND;VALUE=DATE:20240823
+DESCRIPTION:"Registration ends at 4:00 pm Eastern Time August 23rd.  Schedule changes and drop courses without a 'W' grade."
+SUMMARY:Phase II Registration - All Students
+UID:48ff2628-4947-4b5e-a980-45d65b7ba65d@48ff.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241219
+DTEND;VALUE=DATE:20241219
+DESCRIPTION:Diplomas will be delivered within 8 weeks.
+SUMMARY:Degree Confirmation Date for Fall Candidates
+UID:0025b8e2-28ba-4cf9-b47e-15437f37980e@0025.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241026
+DTEND;VALUE=DATE:20241026
+DESCRIPTION:"Last day to apply for grade substitution. Forms accepted through the following Monday\, October 28\, 2024 by 4:00 PM Eastern Time"
+SUMMARY:Grade Substitution Deadline
+UID:740829c0-9283-4208-95f8-f77ac3a3f1ff@7408.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Deadline to avoid class cancellation by 4:00 pm Eastern Time.
+DTEND:20240826T160000Z
+DTSTART:20240826T160000Z
+SUMMARY:Payment Deadline
+UID:afd6d3b6-71fa-4c7b-a5a4-a6d96c8d2fcd@afd6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241202
+DTEND;VALUE=DATE:20241203
+SUMMARY:Final Instructional Class Days
+UID:e01150e3-daae-449e-bbfc-753cf4d64f04@e011.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241214
+DTEND;VALUE=DATE:20241214
+SUMMARY:Commencement
+UID:187b4ece-79a0-4d78-a4fd-19e31cbb073b@187b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240903
+DESCRIPTION:"Instructors are required to verify student participation in all classes that started on 8/21. Reports due at 4:00 PM EDT."
+SUMMARY:Verification of Student Participation in Class - Faculty Only
+UID:077b0c14-95f9-4538-9864-0c600c57fb10@077b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:All 1000 and 2000 level course grades must be entered online by Noon Eastern Time.
+DTEND:20241007T120000Z
+DTSTART:20241007T120000Z
+SUMMARY:Progress Report Deadline
+UID:a273d8a1-1435-410c-a3e4-378cb466084c@a273.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240823
+SUMMARY:Online Application for Graduation for Graduate Students (End)
+UID:cf61588b-8412-463d-b5cc-3c0284f97f52@cf61.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241212
+DTEND;VALUE=DATE:20241212
+SUMMARY:End of Term
+UID:e1b627ab-6a1e-4245-967a-b8e2449ba9d6@e1b6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240403
+DTEND;VALUE=DATE:20240403
+SUMMARY:Schedule of Classes Available Online
+UID:3752366b-9852-4a91-a118-68633857e2df@3752.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241026
+DTEND;VALUE=DATE:20241026
+DESCRIPTION:"Deadline to change grade mode from Letter/Grade to Pass/Fail (and vice versa). No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, accepted Monday\, October 28\, 2024 by 4:00 PM Eastern Time"
+SUMMARY:Grade Mode Deadline
+UID:9ec2d4af-86d4-4284-a63b-5e3482521a24@9ec2.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:All grades must be entered online by noon Eastern Time.
+DTEND:20241216T120000Z
+DTSTART:20241216T120000Z
+SUMMARY:Grade Submission Deadline
+UID:5f6931c4-068a-4d12-a353-b020dbed9cb8@5f69.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20240122
-DESCRIPTION:"August 17th – 23rd – Received Late – Department may not be able to review before Phase II closes."
-SUMMARY:Online Application for Graduation for Undergraduate Students (Start)
-UID:4d949c62-d4b8-4b3c-99f1-bdca5c840f66@4d94.org
+SUMMARY:Online Application for Graduation for Graduate Students (Start)
+UID:3540b9ed-18a6-47fa-a97b-c53115c5a833@3540.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Time Tickets will post for all eligible students at 6:00pm Eastern Time.
+DTEND:20240604T180000Z
+DTSTART:20240604T180000Z
+SUMMARY:Time Tickets for OMSCS Phase I Registration
+UID:f889c1ad-9f3e-4936-8d45-1e229699f4a7@f889.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240819
+DTEND;VALUE=DATE:20240819
+SUMMARY:First Day of Classes
+UID:dd8c1134-42a3-45e5-8996-033335aa8fd2@dd8c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240816
+DTEND;VALUE=DATE:20240816
+DESCRIPTION:"August 16th – 23rd – Received Late – Department may not be able to review before Phase II closes."
+SUMMARY:Deadline for Undergraduate Students to Apply for Graduation
+UID:b7b82057-f9f2-4a41-add9-cd48132d460f@b7b8.org
 END:VEVENT
 END:VCALENDAR
