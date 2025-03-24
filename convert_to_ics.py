@@ -39,16 +39,16 @@ def read_pdf(file_path: str) -> pd.DataFrame:
                 for row in table:
                     if row[0].strip() == 'TBD':
                         continue
-                    semester = row[1]
-                    category = row[2]
+                    semester = row[1].strip()
+                    category = row[2].strip()
                     semester_year = int(semester.split(' ')[1])
-                    dates = row[0].split("-")
+                    dates = row[0].strip().split("-")
                     start = parse_flexible_date(dates[0], semester_year)
                     if len(dates) == 1:
                         end = None
                     else:
                         end = parse_flexible_date(dates[1], semester_year)
-                    body_rows = row[3].split('\n')
+                    body_rows = row[3].strip().split('\n')
 
                     title = body_rows[0]
                     if body_rows[1:]:
