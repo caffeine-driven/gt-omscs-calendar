@@ -37,6 +37,8 @@ def read_pdf(file_path: str) -> pd.DataFrame:
             tables = page.extract_tables()
             for table in tables:
                 for row in table:
+                    if row[0].strip() == 'TBD':
+                        continue
                     semester = row[1]
                     category = row[2]
                     semester_year = int(semester.split(' ')[1])
@@ -60,6 +62,11 @@ def read_pdf(file_path: str) -> pd.DataFrame:
 def parse_flexible_date(date_str, current_year):
     date_str = date_str.strip()
     date_str = date_str.replace('Thur', 'Thu')
+    date_str = date_str.replace('Tues', 'Tue')
+    date_str = date_str.replace('(', ' (')
+    date_str = date_str.replace('( ', '(')
+    date_str = date_str.replace(' )', ')')
+    date_str = date_str.replace('  ', ' ')
     try:
         # Try parsing with year
         return pd.to_datetime(date_str, format="%B %d, %Y (%a)").date()
@@ -212,17 +219,32 @@ def write_html(parsed_terms: list):
 
 if __name__ == "__main__":
     # Example usage:
-    response = requests.get('https://registrar.gatech.edu/info/current-academic-calendar')
-    response_txt = response.text
-    pattern = r"https://[^\s\"']+\.pdf"
-    pdf_urls = re.findall(pattern, response_txt)
-    if not pdf_urls:
+    urls = [
+        'https://registrar.gatech.edu/info/current-academic-calendar',
+        'https://registrar.gatech.edu/info/future-academic-calendars'
+    ]
+    index = 0
+    data_frames = []
+    for url in urls:
+        response = requests.get(url)
+        response_txt = response.text
+        pattern = r"https://[^\s\"']+\.pdf"
+        pdf_urls = re.findall(pattern, response_txt)
+        if not pdf_urls:
+            continue
+
+        for pdf_url in pdf_urls:
+            local_pdf_file = f'{index}.pdf'
+            download_file(pdf_url, local_pdf_file)
+            index += 1
+            data_frame = read_pdf(local_pdf_file)
+            data_frames.append(data_frame)
+
+    if not data_frames:
         exit(1)
-    current_pdf_url = pdf_urls[0]
-    local_pdf_file = f'academic_calendar.pdf'
+    data_frame = pd.concat(data_frames, ignore_index=True)
+    data_frame = data_frame.drop_duplicates()
     output_ics_file = f'output/academic_calendar.ics'
-    download_file(current_pdf_url, local_pdf_file)
-    data_frame = read_pdf(local_pdf_file)
     cal = convert_txt_to_ics(data_frame)
     write_calendar_to_ics(cal, output_ics_file)
     parsed_list = [{
