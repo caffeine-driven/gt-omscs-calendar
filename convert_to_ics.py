@@ -216,6 +216,12 @@ def write_html(parsed_terms: list):
     with open('index.html', 'w') as html_file:
         html_file.writelines(rendered_html)
 
+def write_calendar_from_df(data_frames, output_ics_file):
+    data_frame = pd.concat(data_frames, ignore_index=True)
+    data_frame = data_frame.drop_duplicates()
+    cal = convert_txt_to_ics(data_frame)
+    write_calendar_to_ics(cal, output_ics_file)
+
 
 if __name__ == "__main__":
     # Example usage:
@@ -224,7 +230,10 @@ if __name__ == "__main__":
         'https://registrar.gatech.edu/info/future-academic-calendars'
     ]
     index = 0
-    data_frames = []
+    full_session_data_frames = []
+    early_short_data_frames = []
+    late_short_data_frames = []
+    maymester_data_frames = []
     for url in urls:
         response = requests.get(url)
         response_txt = response.text
@@ -238,19 +247,50 @@ if __name__ == "__main__":
             download_file(pdf_url, local_pdf_file)
             index += 1
             data_frame = read_pdf(local_pdf_file)
-            data_frames.append(data_frame)
+            if 'summer' in pdf_url:
+                if 'full' in pdf_url:
+                    full_session_data_frames.append(data_frame)
+                elif 'maymester' in pdf_url:
+                    maymester_data_frames.append(data_frame)
+                elif 'early' in pdf_url:
+                    early_short_data_frames.append(data_frame)
+                elif 'last' in pdf_url:
+                    late_short_data_frames.append(data_frame)
+            else:
+                full_session_data_frames.append(data_frame)
+                early_short_data_frames.append(data_frame)
+                late_short_data_frames.append(data_frame)
+                maymester_data_frames.append(data_frame)
 
-    if not data_frames:
-        exit(1)
-    data_frame = pd.concat(data_frames, ignore_index=True)
-    data_frame = data_frame.drop_duplicates()
-    output_ics_file = f'output/academic_calendar.ics'
-    cal = convert_txt_to_ics(data_frame)
-    write_calendar_to_ics(cal, output_ics_file)
-    parsed_list = [{
-        'path': output_ics_file,
-        'name': "Current Semester"
-    }]
+    parsed_list = []
+    if full_session_data_frames:
+        ics_path = 'output/academic_calendar_full.ics'
+        write_calendar_from_df(full_session_data_frames, ics_path)
+        parsed_list.append({
+            'path': ics_path,
+            'name': "With Full Summer Semester"
+        })
+    if early_short_data_frames:
+        ics_path = 'output/academic_calendar_early_short.ics'
+        write_calendar_from_df(early_short_data_frames, ics_path)
+        parsed_list.append({
+            'path': ics_path,
+            'name': "With Early Short Summer Semester"
+        })
+    if late_short_data_frames:
+        ics_path = 'output/academic_calendar_late_short.ics'
+        write_calendar_from_df(late_short_data_frames, ics_path)
+        parsed_list.append({
+            'path': ics_path,
+            'name': "With Late Short Summer Semester"
+        })
+    if maymester_data_frames:
+        ics_path = 'output/academic_calendar_maymester.ics'
+        write_calendar_from_df(maymester_data_frames, ics_path)
+        parsed_list.append({
+            'path': ics_path,
+            'name': "With Maymester Summer Semester"
+        })
     write_html(parsed_list)
 
 
