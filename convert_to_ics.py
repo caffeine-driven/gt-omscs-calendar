@@ -1,3 +1,8 @@
+import re
+from io import StringIO
+from typing import Optional
+
+import pdfplumber
 import pandas as pd
 import requests
 from ics import Calendar, Event
@@ -6,54 +11,90 @@ from datetime import datetime, date, time
 from jinja2 import Environment, FileSystemLoader
 
 
-def download_excel_file(excel_url: str, save_path: str):
+def download_file(target_url: str, save_path: str):
     """
     Downloads an Excel file from a given URL and saves it to the specified path.
 
     Parameters:
-    excel_url (str): The URL of the Excel file to download.
+    target_url (str): The URL of the Excel file to download.
     save_path (str): The local path where the downloaded file will be saved.
     """
-    response = requests.get(excel_url)
+    response = requests.get(target_url)
 
     # Save the Excel file locally
     with open(save_path, 'wb') as file:
         file.write(response.content)
 
-    print(f"Excel file downloaded to {save_path}")
+    print(f"File downloaded to {save_path}")
+
+def read_csv(file_path: str) -> pd.DataFrame:
+    return pd.read_csv(file_path, sep="\t", dtype=str)
+
+def read_pdf(file_path: str) -> pd.DataFrame:
+    all_table_rows = []
+    with pdfplumber.open(file_path) as pdf:
+        for page in pdf.pages:
+            tables = page.extract_tables()
+            for table in tables:
+                for row in table:
+                    semester = row[1]
+                    category = row[2]
+                    semester_year = int(semester.split(' ')[1])
+                    dates = row[0].split("-")
+                    start = parse_flexible_date(dates[0], semester_year)
+                    if len(dates) == 1:
+                        end = None
+                    else:
+                        end = parse_flexible_date(dates[1], semester_year)
+                    body_rows = row[3].split('\n')
+
+                    title = body_rows[0]
+                    if body_rows[1:]:
+                        body = "\n".join(body_rows[1:])
+                    else:
+                        body = None
+                    all_table_rows.append([start, end, semester, category, title, body])
+    return pd.DataFrame(all_table_rows, columns=['Date', 'EndDate', 'Semester', 'Category', 'Title', 'Body'])
 
 
-def convert_excel_to_ics(excel_file_path: str):
-    """
-    Converts an academic calendar from a downloaded Excel file into an ICS format.
+def parse_flexible_date(date_str, current_year):
+    date_str = date_str.strip()
+    date_str = date_str.replace('Thur', 'Thu')
+    try:
+        # Try parsing with year
+        return pd.to_datetime(date_str, format="%B %d, %Y (%a)").date()
+    except ValueError:
+        # If year is missing, assume the current year
+        date_with_year = f"{date_str} {current_year}"  # Append current year
+        return pd.to_datetime(date_with_year, format="%B %d (%a) %Y").date()
 
-    Parameters:
-    excel_file_path (str): The local path to the downloaded Excel file.
-    output_ics_path (str): The output path where the ICS file will be saved.
-    """
-    # Load the downloaded Excel file into a pandas DataFrame
-    df = pd.read_excel(excel_file_path)
-
+def convert_txt_to_ics(df: pd.DataFrame):
     # Create a calendar
     calendar = Calendar()
 
     # Iterate through the rows in the DataFrame and create events
     for _, row in df.iterrows():
         # Parse the start date (format is "%m/%d/%Y")
-        start_date = datetime.strptime(row['Date'], "%m/%d/%Y").date()
+        if isinstance(row['Date'], str):
+            start_date = datetime.strptime(row['Date'], "%m/%d/%Y").date()
+        else:
+            start_date = row['Date']
 
-        if pd.isna(row['Time']):  # If start time is null, treat as an all-day
+        if 'Time' not in df.columns or pd.isna(row['Time']):  # If start time is null, treat as an all-day
             start_time = None
         else:
             start_time = datetime.strptime(row['Time'], "%H:%M").time()
 
         # Handle end time and end date
         if pd.notna(row['EndDate']):
-            end_date = datetime.strptime(row['EndDate'], "%m/%d/%Y").date()
+            if isinstance(row['EndDate'], str):
+                end_date = datetime.strptime(row['EndDate'], "%m/%d/%Y").date()
+            else:
+                end_date = row['EndDate']
         else:
-            end_date = None
+            end_date = start_date
 
-        if pd.isna(row['EndTime']):
+        if 'EndTime' not in df.columns or pd.isna(row['EndTime']):
             end_time = None
         else:
             end_time = datetime.strptime(row['EndTime'], "%H:%M").time()
@@ -68,7 +109,9 @@ def convert_excel_to_ics(excel_file_path: str):
             event_start = create_single_day_event(
                 f"{row['Title']} (Start)", start_date,
                 row['Body'] if pd.notna(row['Body']) else "",
-                row['Location'] if pd.notna(row['Location']) else ""
+                get_column(row, df, 'EventLocation'),
+                get_column(row, df, 'Semester'),
+                get_column(row, df, 'Category'),
             )
             calendar.events.add(event_start)
 
@@ -77,7 +120,9 @@ def convert_excel_to_ics(excel_file_path: str):
                 f"{row['Title']} (End)",
                 end_date,
                 row['Body'] if pd.notna(row['Body']) else "",
-                row['Location'] if pd.notna(row['Location']) else "",
+                get_column(row, df, 'EventLocation'),
+                get_column(row, df, 'Semester'),
+                get_column(row, df, 'Category'),
             )
             calendar.events.add(event_end)
         else:
@@ -88,25 +133,40 @@ def convert_excel_to_ics(excel_file_path: str):
                 row['Title'],
                 start_date, start_time, end_date, end_time,
                 row['Body'] if pd.notna(row['Body']) else "",
-                row['Location'] if pd.notna(row['Location']) else ""
+                get_column(row, df, 'EventLocation'),
+                get_column(row, df, 'Semester'),
+                get_column(row, df, 'Category'),
             )
             calendar.events.add(event)
 
     return calendar
 
+def get_column(row, df: pd.DataFrame, column: str) -> Optional[str]:
+    if column in df.columns and pd.notna(row[column]):
+        return row[column]
+    else:
+        return None
 
-def create_single_day_event(title: str, start_date: date, description: str, location: str):
+
+def create_single_day_event(title: str, start_date: date, description: str, location: str, semester: str = None, category: str = None):
     event = Event()
     event.name = title
     event.begin = start_date
     event.make_all_day()
     event.description = description
     event.location = location
+    categories = set()
+    if semester:
+        categories.add(semester)
+    if category:
+        categories.add(category)
+    if categories:
+        event.categories = categories
     return event
 
 
 def create_multi_day_event(
-        title: str, start_date: date, start_time: time, end_date: date, end_time: time, description: str, location: str
+        title: str, start_date: date, start_time: time, end_date: date, end_time: time, description: str, location: str, semester: str = None, category: str = None
 ):
     event = Event()
     event.name = title
@@ -123,6 +183,13 @@ def create_multi_day_event(
         event.end = datetime.combine(end_date, end_time)
     event.description = description
     event.location = location
+    categories = set()
+    if semester:
+        categories.add(semester)
+    if category:
+        categories.add(category)
+    if categories:
+        event.categories = categories
     return event
 
 
@@ -145,21 +212,44 @@ def write_html(parsed_terms: list):
 
 if __name__ == "__main__":
     # Example usage:
-    target_list = (
-        ('Spring 2024', '202408'),
-        ('Spring 2025', '202502')
-    )
-    parsed_list = []
-    for term_name, code in target_list:
-        excel_url = f'https://func-calendarxlsx-prod-001.azurewebsites.net/api/getExcel?termCode={code}'
-        local_excel_file = f'academic_calendar_{code}.xlsx'
-        output_ics_file = f'output/academic_calendar_{code}.ics'
-
-        download_excel_file(excel_url, local_excel_file)
-        cal = convert_excel_to_ics(local_excel_file)
-        write_calendar_to_ics(cal, output_ics_file)
-        parsed_list.append({
-            'path': output_ics_file,
-            'name': term_name
-        })
+    response = requests.get('https://registrar.gatech.edu/info/current-academic-calendar')
+    response_txt = response.text
+    pattern = r"https://[^\s\"']+\.pdf"
+    pdf_urls = re.findall(pattern, response_txt)
+    if not pdf_urls:
+        exit(1)
+    current_pdf_url = pdf_urls[0]
+    local_pdf_file = f'academic_calendar.pdf'
+    output_ics_file = f'output/academic_calendar.ics'
+    download_file(current_pdf_url, local_pdf_file)
+    data_frame = read_pdf(local_pdf_file)
+    cal = convert_txt_to_ics(data_frame)
+    write_calendar_to_ics(cal, output_ics_file)
+    parsed_list = [{
+        'path': output_ics_file,
+        'name': "Current Semester"
+    }]
     write_html(parsed_list)
+
+
+    # target_list = (
+    #     ('Spring 2025', '202502'),
+    #     ('Summer 2025', '202505'),
+    # )
+    # parsed_list = []
+    # for term_name, code in target_list:
+    #     txt_url = f'https://ro-blob.azureedge.net/ro-calendar-data/public/txt/{code}.txt'
+    #     excel_url = f'https://func-calendarxlsx-prod-001.azurewebsites.net/api/getExcel?termCode={code}'
+    #     local_excel_file = f'academic_calendar_{code}.xlsx'
+    #     local_txt_file = f'academic_calendar_{code}.txt'
+    #     output_ics_file = f'output/academic_calendar_{code}.ics'
+    #
+    #     # download_file(excel_url, local_excel_file)
+    #     download_file(txt_url, local_txt_file)
+    #     cal = convert_txt_to_ics(local_txt_file)
+    #     write_calendar_to_ics(cal, output_ics_file)
+    #     parsed_list.append({
+    #         'path': output_ics_file,
+    #         'name': term_name
+    #     })
+    # write_html(parsed_list)
