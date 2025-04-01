@@ -30,7 +30,7 @@ def download_file(target_url: str, save_path: str):
 def read_csv(file_path: str) -> pd.DataFrame:
     return pd.read_csv(file_path, sep="\t", dtype=str)
 
-def read_pdf(file_path: str) -> pd.DataFrame:
+def read_pdf(file_path: str, target_semester: str) -> pd.DataFrame:
     all_table_rows = []
     with pdfplumber.open(file_path) as pdf:
         for page in pdf.pages:
@@ -41,6 +41,9 @@ def read_pdf(file_path: str) -> pd.DataFrame:
                         continue
                     semester = row[1].strip()
                     category = row[2].strip()
+                    semester_season = semester.split(' ')[0]
+                    if target_semester and target_semester != semester_season:
+                        continue
                     semester_year = int(semester.split(' ')[1])
                     dates = row[0].strip().split("-")
                     start = parse_flexible_date(dates[0], semester_year)
@@ -244,9 +247,16 @@ if __name__ == "__main__":
 
         for pdf_url in pdf_urls:
             local_pdf_file = f'{index}.pdf'
-            download_file(pdf_url, local_pdf_file)
+            # download_file(pdf_url, local_pdf_file)
             index += 1
-            data_frame = read_pdf(local_pdf_file)
+            if 'spring' in pdf_url:
+                chosen_semester = 'Spring'
+            elif 'fall' in pdf_url:
+                chosen_semester = 'Fall'
+            else:
+                chosen_semester = None
+
+            data_frame = read_pdf(local_pdf_file, chosen_semester)
             if 'summer' in pdf_url:
                 if 'full' in pdf_url:
                     full_session_data_frames.append(data_frame)
