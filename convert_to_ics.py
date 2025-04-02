@@ -160,7 +160,7 @@ def get_column(row, df: pd.DataFrame, column: str) -> Optional[str]:
 
 def create_single_day_event(title: str, start_date: date, description: str, location: str, semester: str = None, category: str = None):
     event = Event()
-    event.name = title
+    event.name = f'{title} - {semester}'
     event.begin = start_date
     event.make_all_day()
     event.description = description
@@ -172,6 +172,7 @@ def create_single_day_event(title: str, start_date: date, description: str, loca
         categories.add(category)
     if categories:
         event.categories = categories
+        event.description += "\n"+",".join(categories)
     return event
 
 
@@ -179,7 +180,7 @@ def create_multi_day_event(
         title: str, start_date: date, start_time: time, end_date: date, end_time: time, description: str, location: str, semester: str = None, category: str = None
 ):
     event = Event()
-    event.name = title
+    event.name = f'{title} - {semester}'
     if not start_time:
         event.begin = start_date
         event.make_all_day()
@@ -200,6 +201,7 @@ def create_multi_day_event(
         categories.add(category)
     if categories:
         event.categories = categories
+        event.description += "\n"+",".join(categories)
     return event
 
 
