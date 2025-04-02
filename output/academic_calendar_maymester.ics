@@ -2,581 +2,47 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250312
-DTEND;VALUE=DATE:20250312
-CATEGORIES:Spring 2025,Grades
-DESCRIPTION:Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time.
-SUMMARY:Grade substitution deadline
-UID:69fe87d5-c079-44d1-b1f4-9eda803974ac@69fe.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250825
-DTEND;VALUE=DATE:20250825
-CATEGORIES:Fall 2025,Payment
-SUMMARY:Payment deadline 4:00 PM Eastern Time
-UID:644f7a5b-84ab-4f98-8922-62c1431fcd3f@644f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250110
-DTEND;VALUE=DATE:20250110
-CATEGORIES:Spring 2025,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Spring 2025 deadline
-UID:1ebde423-b0d5-461c-87f1-133a2e994d91@1ebd.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250410
 DTEND;VALUE=DATE:20250410
-CATEGORIES:Summer 2025 - All Sessions,Registration
-SUMMARY:Time tickets for Summer 2025 registration post at 6:00 PM Eastern Time
-UID:d52f45a0-744d-456d-b4c7-04eb80b2d664@d52f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250514
-DTEND;VALUE=DATE:20250514
-CATEGORIES:Registration,Summer 2025 - Maymester
-DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 PM Eastern Time.\nNo changes to/from audit mode permitted after the registration deadline.
-SUMMARY:Maymester Summer 2025 registration closes at 11:59 PM Eastern Time.
-UID:5522bef9-d5be-41d1-a37c-4038526cb0bb@5522.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250512
-DTEND;VALUE=DATE:20250512
-CATEGORIES:Classes,Summer 2025 - Maymester
-SUMMARY:First day of classes for Maymester Summer
-UID:67b8ded9-bbd5-4080-97f2-a4b44aa6dae7@67b8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250102
-DTEND;VALUE=DATE:20250110
-CATEGORIES:Registration,Spring 2025
-SUMMARY:Tuition Assistance Program (TAP) registration for Spring 2025
-UID:0aebd498-c2c2-4c5e-8d66-4001978ab270@0aeb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250106
-DTEND;VALUE=DATE:20250106
-CATEGORIES:Classes,Spring 2025
-SUMMARY:First day of classes for Spring 2025
-UID:137f3706-4b02-434c-95c7-8c8c113daeaf@137f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250804
-DTEND;VALUE=DATE:20250804
-CATEGORIES:Faculty,Summer 2025 - A ll Sessions
-SUMMARY:Grade submission deadline
-UID:4354dc62-f053-4a19-9359-3a6f8d944881@4354.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250715
-DTEND;VALUE=DATE:20250715
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Cross-registration deadline for Fall 2025
-UID:b12f82df-9992-4aa9-bc0b-006d6bef3259@b12f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250201
-DTEND;VALUE=DATE:20250201
-CATEGORIES:Fall 2025,Readmission
-SUMMARY:Readmission application for Fall 2025 opens
-UID:5bc5d6f2-2e36-4aea-96e4-2f213f458637@5bc5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250201
-DTEND;VALUE=DATE:20250201
-CATEGORIES:Readmission,Summer 2025 - A ll Sessions
-DESCRIPTION:dropped or review
-SUMMARY:Readmission application for Summer 2025 deadline for student with academic standing of
-UID:669100d7-cd26-4891-9aef-cd93cccda425@6691.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251127
-DTEND;VALUE=DATE:20251128
-CATEGORIES:Fall 2025,Holiday
-SUMMARY:Thanksgiving break
-UID:77c2ba9b-6d9c-4109-8d76-c2adb295b424@77c2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250425
-DTEND;VALUE=DATE:20250425
-CATEGORIES:Thesis,Spring 2025
-SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time
-UID:4c8feccb-1bad-416f-a64c-6e195e112d78@4c8f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250822
-DTEND;VALUE=DATE:20250822
-CATEGORIES:Thesis,Fall 2025
-SUMMARY:Thesis deadline for enrollment waiver
-UID:62a8fc9b-158a-4c24-ac07-747085fca9c3@62a8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251205
-DTEND;VALUE=DATE:20251205
-CATEGORIES:Thesis,Fall 2025
-SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time
-UID:933aef2d-b2c2-4781-b037-056200bc2d5c@933a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250505
-DTEND;VALUE=DATE:20250514
-CATEGORIES:Registration,Summer 2025 - Maymester
-SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2025
-UID:f57307ea-276b-461f-899b-0a0e05c9471c@f573.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250519
-DTEND;VALUE=DATE:20250519
-CATEGORIES:Payment,Summer 2025 - A ll Sessions
-SUMMARY:Payment deadline 4:00 PM Eastern Time
-UID:5aa37d66-5586-4c5a-80f0-c5f2ccf4c8d4@5aa3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250102
-DTEND;VALUE=DATE:20250110
-CATEGORIES:Registration,Spring 2025
-SUMMARY:Phase II registration for Spring 2025
-UID:6fd42851-8118-4d0c-bc62-abc8c833ac5d@6fd4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250514
-DTEND;VALUE=DATE:20250514
-CATEGORIES:Registration,Summer 2025 - Maymester
-DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade for Maymester courses by\n11:59 PM Eastern Time. No changes to/from audit mode permitted after the registration deadline.
-SUMMARY:Maymester Summer 2025 registration closes at 11:59 PM Eastern Time.
-UID:a2c05657-dfee-42d3-a1ac-ebe33652a803@a2c0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251204
-DTEND;VALUE=DATE:20251211
-CATEGORIES:Exams,Fall 2025
-SUMMARY:Final exams
-UID:ed73e838-8968-4de0-b9bb-d6bd568600e0@ed73.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250505
-DTEND;VALUE=DATE:20250516
-CATEGORIES:Summer 2025 - Early Short\, Late Short\,\nand Full Sessions,Registration
-SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2025
-UID:9a6ab4b6-3ca1-4cb9-89fe-3e4ad417a247@9a6a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250526
-DTEND;VALUE=DATE:20250526
-CATEGORIES:Holiday,Summer 2025 - A ll Sessions
-SUMMARY:Memorial Day
-UID:9c292aa4-9902-40e6-9058-414e13e7d4e8@9c29.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250410
-DTEND;VALUE=DATE:20250410
-CATEGORIES:Registration,Summer 2025 - A ll Sessions
-SUMMARY:Time tickets for Summer 2025 registration post at 6:00 PM Eastern Time
-UID:d84f729d-6a47-4f94-ae49-19f668131db7@d84f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250521
-DTEND;VALUE=DATE:20250527
-CATEGORIES:Faculty,Summer 2025 - Maymester
-DESCRIPTION:All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern\nTime.
-SUMMARY:Verification of student participation in class.
-UID:49f3ddde-44fa-44e7-a918-a247ead79d1e@49f3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250502
-DTEND;VALUE=DATE:20250503
-CATEGORIES:Spring 2025,Graduation
-SUMMARY:Commencement
-UID:260eb1b5-e0fd-421b-8a23-c53eb1b593fa@260e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250410
-DTEND;VALUE=DATE:20250410
-CATEGORIES:Fall 2025,Registration
+CATEGORIES:Registration,Fall 2025
 SUMMARY:Time tickets for Fall 2025 Phase I registration post at 6:00 PM Eastern Time
-UID:c0806b8d-42a9-432d-9576-45cb4133cce6@c080.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250805
-DTEND;VALUE=DATE:20250805
-CATEGORIES:Grades,Summer 2025 - A ll Sessions
-SUMMARY:Final grades available online after 6:00 PM Eastern Time
-UID:d247e92b-b693-4a69-b85c-f3a87b61e46f@d247.org
+UID:ef28b46f-a5d0-4c42-a8f1-de89ca5fa72c@ef28.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250414
 DTEND;VALUE=DATE:20250514
 CATEGORIES:Registration,Summer 2025 - Maymester
-SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2025
-UID:785d20fe-1d0e-4e60-a6e2-c1e3075d7bba@785d.org
+SUMMARY:Summer 2025 registration (one phase only)
+UID:6141f51f-cbcf-4544-b7b0-eb6728e26ead@6141.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250407
-DTEND;VALUE=DATE:20250407
-CATEGORIES:Summer 2025 - All Sessions,Registration
-SUMMARY:Schedule of Classes available online
-UID:6b85386f-90d5-4129-b0d8-0b48ba294e47@6b85.org
+DTSTART;VALUE=DATE:20250429
+DTEND;VALUE=DATE:20250429
+CATEGORIES:Spring 2025,Reading Period
+SUMMARY:Reading period (8:00 AM to 2:40 PM)
+UID:c9b1fbbc-4eaf-4e8b-9152-159043d4f60f@c9b1.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250505
-DTEND;VALUE=DATE:20250505
-CATEGORIES:Faculty,Spring 2025
-SUMMARY:Grade submission deadline
-UID:02dfa863-3f3d-4f93-8cb8-5c170cfe3a7b@02df.org
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251027
+CATEGORIES:Fall 2025,Grades
+DESCRIPTION:Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from\naudit mode permitted after the last day of registration. Completed forms\, including advisor signature\,\nmust be submitted no later than 4:00 PM Eastern Time.
+SUMMARY:Grade mode change deadline
+UID:892f650b-6697-4dc5-9460-27ee53cf7021@892f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250106
+DTEND;VALUE=DATE:20250106
+CATEGORIES:Spring 2025,Classes
+SUMMARY:First day of classes for Spring 2025
+UID:065c5b58-0e1d-48ff-8934-8c9f7bf4dce8@065c.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251216
 DTEND;VALUE=DATE:20251216
 CATEGORIES:Fall 2025,Grades
 SUMMARY:Final grades available online after 6:00 PM Eastern Time
-UID:c4127559-f597-4c07-9020-c3455c21a78e@c412.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251006
-DTEND;VALUE=DATE:20251006
-CATEGORIES:Faculty,Fall 2025
-SUMMARY:Progress report deadline
-UID:ae5fa332-1065-479b-bef9-a0975089524e@ae5f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250516
-DTEND;VALUE=DATE:20250516
-CATEGORIES:Thesis,Summer 2025 - A ll Sessions
-SUMMARY:Thesis deadline for enrollment waiver
-UID:790c328b-6aee-4895-aec5-82dae9c1e2a6@790c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250120
-DTEND;VALUE=DATE:20250120
-CATEGORIES:Spring 2025,Holiday
-SUMMARY:Official institute holiday - Martin Luther King\, Jr. Day
-UID:50090785-d472-4f31-9041-72346826b4f3@5009.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250312
-DTEND;VALUE=DATE:20250312
-CATEGORIES:Spring 2025,Grades
-DESCRIPTION:Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from\naudit mode permitted after the last day of registration. Completed forms\, including advisor signature\,\nmust be submitted no later than 4:00 PM Eastern Time.
-SUMMARY:Grade mode change deadline
-UID:96180d75-05e3-4b58-aebf-c8cf668e6fa0@9618.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250424
-DTEND;VALUE=DATE:20250501
-CATEGORIES:Exams,Spring 2025
-DESCRIPTION:See the official exam schedule at\nhttps://registrar.gatech.edu/public/files/Final%20Exam%20Matrix%20for%20Spring%202025_0.pdf\nfor details. Policy in the Catalog under Rules/Regulations XII.D. Contact the Academic Scheduling team\nin the Registrar's Office with questions.
-SUMMARY:Final exams
-UID:3f8b8e85-63f4-4c09-adf1-13d11366d331@3f8b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251211
-DTEND;VALUE=DATE:20251213
-CATEGORIES:Fall 2025,Graduation
-SUMMARY:Commencement
-UID:1b07178b-233d-4364-8659-8d8056caae47@1b07.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240902
-DTEND;VALUE=DATE:20240902
-CATEGORIES:Spring 2025,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Spring 2025 opens
-UID:5d2d4950-6efe-4619-960a-1dd31eb88361@5d2d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250506
-DTEND;VALUE=DATE:20250506
-CATEGORIES:Spring 2025,Grades
-SUMMARY:Final grades available online after 6:00 PM Eastern Time
-UID:ff8d9ec7-d9dd-4a77-a41b-1f30e02330a6@ff8d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250807
-DTEND;VALUE=DATE:20250807
-CATEGORIES:Graduation,Summer 2025 - A ll Sessions
-DESCRIPTION:Diplomas will be delivered within 8 weeks
-SUMMARY:Degree confirmation for all Summer candidates
-UID:5c17e11f-1c08-4827-a3fd-801f7f17da70@5c17.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250822
-DTEND;VALUE=DATE:20250822
-CATEGORIES:Fall 2025,Registration
-DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade by 4:00 pm Eastern Time.\nNo changes to/from audit mode permitted after the registration deadline.
-SUMMARY:Fall 2025 Phase II registration closes at 4:00 PM Eastern Time
-UID:b63531f1-b115-48f3-bed5-0f985f8f9bb8@b635.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251218
-DTEND;VALUE=DATE:20251218
-CATEGORIES:Fall 2025,Graduation
-DESCRIPTION:Diplomas will be delivered within 8 weeks
-SUMMARY:Degree confirmation for all fall candidates
-UID:f3d6fce2-264f-4045-8616-18de7783cf10@f3d6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250815
-DTEND;VALUE=DATE:20250815
-CATEGORIES:Fall 2025,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Fall 2025 deadline for undergraduate students
-UID:04d07144-ac07-49ec-a431-52162bd8ddec@04d0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251126
-DTEND;VALUE=DATE:20251126
-CATEGORIES:Fall 2025,Recess
-SUMMARY:Student recess. No classes. Campus open.
-UID:0d82d1b1-6269-4703-8d2f-a7ecb00b0c76@0d82.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250423
-DTEND;VALUE=DATE:20250423
-CATEGORIES:Reading Period,Spring 2025
-SUMMARY:Reading period
-UID:55602311-c2c7-478b-8135-8f9e8d3961ba@5560.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250811
-DTEND;VALUE=DATE:20250822
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Fall 2025 Phase II registration
-UID:ee7296b2-c245-4a2f-80fd-9403fe43ae1d@ee72.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250415
-DTEND;VALUE=DATE:20250415
-CATEGORIES:Summer 2025 - All Sessions,Registration
-SUMMARY:Cross-registration deadline for Summer 2025
-UID:3a4ad15a-ae63-4c97-a776-3985928f97b6@3a4a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20251202
-CATEGORIES:Fall 2025,Classes
-SUMMARY:Final instructional class days for Fall 2025
-UID:44eea2a8-a7e6-40e6-9860-457bced00b78@44ee.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251203
-DTEND;VALUE=DATE:20251203
-CATEGORIES:Reading Period,Fall 2025
-SUMMARY:Reading period
-UID:6824488d-3f66-449b-819e-8a22cc73fe06@6824.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240120
-DTEND;VALUE=DATE:20240120
-CATEGORIES:Summer 2025,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Summer 2025 opens
-UID:73bef68b-5010-4246-9a22-c085729430eb@73be.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250407
-DTEND;VALUE=DATE:20250407
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Schedule of Classes available online
-UID:2025a395-c4c1-460c-a94b-3c7d156f2779@2025.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250827
-DTEND;VALUE=DATE:20250902
-CATEGORIES:Faculty,Fall 2025
-DESCRIPTION:All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern\nTime.
-SUMMARY:Verification of student participation in class
-UID:b0e39b93-8e6e-46db-8789-bf4829e4a1e1@b0e3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251027
-DTEND;VALUE=DATE:20251027
-CATEGORIES:Fall 2025,Grades
-DESCRIPTION:Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from\naudit mode permitted after the last day of registration. Completed forms\, including advisor signature\,\nmust be submitted no later than 4:00 PM Eastern Time.
-SUMMARY:Grade mode change deadline
-UID:7e9a1798-30fc-44a2-bfda-a13fe3a4729d@7e9a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250110
-DTEND;VALUE=DATE:20250110
-CATEGORIES:Registration,Spring 2025
-DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade by 4:00 pm Eastern Time.\nNo changes to/from audit mode permitted after the registration deadline.
-SUMMARY:Phase II registration for Spring 2025 closes at 4:00 PM Eastern Time
-UID:b39abcd7-0903-4791-82b7-56890ac54dc0@b39a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250818
-DTEND;VALUE=DATE:20250818
-CATEGORIES:Fall 2025,Classes
-SUMMARY:First day of classes for Fall 2025
-UID:65a2ad48-87be-4af9-b6b1-95e83e2c6a23@65a2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251209
-DTEND;VALUE=DATE:20251209
-CATEGORIES:Reading Period,Fall 2025
-SUMMARY:Reading period. No exams 8:00 AM - 2:40 PM Eastern Time
-UID:ba01e198-66f2-43f1-bb92-5059d90763bd@ba01.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251211
-DTEND;VALUE=DATE:20251211
-CATEGORIES:Fall 2025,Classes
-SUMMARY:End of term
-UID:b7fda73c-0764-40d0-bf56-88463d7707ce@b7fd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250516
-DTEND;VALUE=DATE:20250516
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Fall 2025 Phase I registration closes at 4:00 PM Eastern Time
-UID:fdebb6c8-136c-4957-8861-fc8b37545143@fdeb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250429
-DTEND;VALUE=DATE:20250429
-CATEGORIES:Reading Period,Spring 2025
-SUMMARY:Reading period (8:00 AM to 2:40 PM)
-UID:180cb16e-afb3-4c4d-9193-6021e89c19a7@180c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250407
-DTEND;VALUE=DATE:20250407
-CATEGORIES:Registration,Summer 2025 - A ll Sessions
-SUMMARY:Schedule of Classes available online
-UID:a6957630-d02c-41ae-8174-2517316f8850@a695.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251215
-DTEND;VALUE=DATE:20251215
-CATEGORIES:Faculty,Fall 2025
-DESCRIPTION:All grades must be entered online by 12:00 PM Eastern Time.
-SUMMARY:Grade submission deadline
-UID:f74929ab-6cf9-4921-b496-edb3c2d8982f@f749.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250501
-DTEND;VALUE=DATE:20250501
-CATEGORIES:Classes,Spring 2025
-SUMMARY:End of term
-UID:e392e0cb-acd6-4e7a-9bf0-0f6f469fa976@e392.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251027
-DTEND;VALUE=DATE:20251027
-CATEGORIES:Fall 2025,Grades
-DESCRIPTION:Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time.
-SUMMARY:Grade substitution deadline
-UID:83c29954-9773-4f5f-a233-cc9c2b40ad44@83c2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250317
-DTEND;VALUE=DATE:20250321
-CATEGORIES:Spring 2025,Holiday
-SUMMARY:Spring Break
-UID:be2cff3d-0411-4a40-a627-4c92cff14a4e@be2c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250224
-DTEND;VALUE=DATE:20250224
-CATEGORIES:Faculty,Spring 2025
-SUMMARY:Progress report deadline
-UID:8551cdd7-ca67-48c2-ae6f-c46750262fd6@8551.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241231
-DTEND;VALUE=DATE:20241231
-CATEGORIES:Registration,Spring 2025
-SUMMARY:Time tickets for Phase II registration for Spring 2025
-UID:c1db1741-3f6e-4828-8044-b6644f7096fa@c1db.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250421
-DTEND;VALUE=DATE:20250422
-CATEGORIES:Classes,Spring 2025
-SUMMARY:Final instructional class days for Spring 2025
-UID:da6d83d8-31f1-48a3-875e-40ea2f4542fb@da6d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250414
-DTEND;VALUE=DATE:20250516
-CATEGORIES:Summer 2025 - Early Short\, Late Short\,\nand Full Sessions,Registration
-SUMMARY:Summer 2025 registration (one phase only)
-UID:d3af5f64-3842-4cde-8f6c-00f960b735b1@d3af.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250530
-DTEND;VALUE=DATE:20250530
-CATEGORIES:Classes,Summer 2025 - Maymester
-SUMMARY:Last day of classes for Maymester summer
-UID:f4304618-8ed7-4f40-a52e-2adf45149c64@f430.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251006
-DTEND;VALUE=DATE:20251007
-CATEGORIES:Fall 2025,Recess
-SUMMARY:Fall break. No classes. Campus open.
-UID:62126d07-3a9d-4e84-b29c-1a313be00fd8@6212.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250113
-DTEND;VALUE=DATE:20250113
-CATEGORIES:Spring 2025,Payment
-SUMMARY:Payment deadline 4:00 PM Eastern Time
-UID:2bbd5601-3cf1-44b7-a911-0a19cf1f522c@2bbd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250807
-DTEND;VALUE=DATE:20250807
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Time tickets for Fall 2025 Phase II registration
-UID:bd5c9936-165b-4826-bd6b-cdecd5273047@bd5c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250522
-DTEND;VALUE=DATE:20250522
-CATEGORIES:Registration,Summer 2025 - Maymester
-DESCRIPTION:Last day to withdraw from a single course or from school with W grades for Maymester Summer Semester\n2025 by 4:00 PM Eastern Time. Students must withdraw from all classes in order to receive a refund.
-SUMMARY:Withdrawal deadline
-UID:4701caf3-cddf-4471-b711-c59b1245c1de@4701.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250701
-DTEND;VALUE=DATE:20250701
-CATEGORIES:Fall 2025,Readmission
-DESCRIPTION:dropped or review
-SUMMARY:Readmission application for Fall 2025 deadline for student with academic standing other than
-UID:8d141267-57df-4c26-91f6-5a0ec98f1d63@8d14.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251204
-DTEND;VALUE=DATE:20251204
-CATEGORIES:Reading Period,Fall 2025
-SUMMARY:Reading period. No exams 8:00 AM - 2:40 PM Eastern Time
-UID:670177fe-7f05-40b3-9890-d03309a94452@6701.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250516
-DTEND;VALUE=DATE:20250516
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Fall 2025 Phase I registration closes at 4:00 PM Eastern Time.
-UID:d7f85b49-9f48-4856-9383-c6d0bd5b9ca6@d7f8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20250901
-CATEGORIES:Fall 2025,Holiday
-SUMMARY:Labor Day
-UID:588c87aa-6b12-4212-a0f8-4a4adf2d6802@588c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250410
-DTEND;VALUE=DATE:20250410
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Time tickets for Fall 2025 registration post at 6:00 PM Eastern Time
-UID:203f3220-b8b2-4f3c-be73-2eadb055867a@203f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250101
-DTEND;VALUE=DATE:20250101
-CATEGORIES:Spring 2025,Holiday
-SUMMARY:Official institute holiday - New Year's Day
-UID:03b0346d-9017-44cb-bc4d-abbde4c4bf5f@03b0.org
+UID:d64f2a7c-084f-4b8c-9600-2875b18d7243@d64f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250522
@@ -584,15 +50,152 @@ DTEND;VALUE=DATE:20250522
 CATEGORIES:Summer 2025 - Maymester,Grades
 DESCRIPTION:Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit\nmode permitted after the last day of registration. Completed forms\, including advisor signature\, must be\nsubmitted no later than 4:00 PM Eastern Time.
 SUMMARY:Grade mode change deadline
-UID:5567e7a5-f2a5-4b6e-a3a0-8e82cf4830f7@5567.org
+UID:2d13c6a3-9225-4ce1-acb0-b9c088e8a07d@2d13.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251205
+CATEGORIES:Fall 2025,Thesis
+SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time
+UID:3c8cb0b4-a1c4-4d56-bc34-f94f7b8b057c@3c8c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+CATEGORIES:Spring 2025,Classes
+SUMMARY:Final instructional class days for Spring 2025
+UID:1b9e3f72-501a-4e86-8cbe-0cf59904346c@1b9e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250414
+DTEND;VALUE=DATE:20250516
+CATEGORIES:Registration,Fall 2025
+SUMMARY:Fall 2025 Phase I registration
+UID:1ab5f4fd-5677-4632-ac31-fa912ddc7857@1ab5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250827
+DTEND;VALUE=DATE:20250902
+CATEGORIES:Fall 2025,Faculty
+DESCRIPTION:All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern\nTime.
+SUMMARY:Verification of student participation in class
+UID:cc02b153-1b8b-4a6e-bfbe-2b38cef78dd2@cc02.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240120
+DTEND;VALUE=DATE:20240120
+CATEGORIES:Summer 2025,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Summer 2025 opens
+UID:ba9efb68-4696-4c42-8e97-ac13c665703d@ba9e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250425
+DTEND;VALUE=DATE:20250425
+CATEGORIES:Spring 2025,Thesis
+SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time
+UID:d0802cbb-1b2b-49cb-87e9-8ef354f9b35f@d080.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251126
+DTEND;VALUE=DATE:20251126
+CATEGORIES:Recess,Fall 2025
+SUMMARY:Student recess. No classes. Campus open.
+UID:4c58db78-8fae-4524-84d2-641ce6828a1c@4c58.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250514
+DTEND;VALUE=DATE:20250514
+CATEGORIES:Registration,Summer 2025 - Maymester
+DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade for Maymester courses by\n11:59 PM Eastern Time. No changes to/from audit mode permitted after the registration deadline.
+SUMMARY:Maymester Summer 2025 registration closes at 11:59 PM Eastern Time.
+UID:efbaeca3-3e94-4336-a00a-b150d93183d4@efba.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241231
+DTEND;VALUE=DATE:20241231
+CATEGORIES:Registration,Spring 2025
+SUMMARY:Time tickets for Phase II registration for Spring 2025
+UID:e8d9e24b-7014-4bf1-b900-6b43a7951b60@e8d9.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250312
 DTEND;VALUE=DATE:20250312
-CATEGORIES:Registration,Spring 2025
-DESCRIPTION:Last day to withdraw from a single course or from school with W grades for Spring Semester 2025 by\n4:00 PM Eastern Time. Students must withdraw from all classes in order to receive a refund.
-SUMMARY:Withdrawal deadline
-UID:84ec2867-515f-4483-a4c2-e2e6d8972f1d@84ec.org
+CATEGORIES:Spring 2025,Grades
+DESCRIPTION:Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from\naudit mode permitted after the last day of registration. Completed forms\, including advisor signature\,\nmust be submitted no later than 4:00 PM Eastern Time.
+SUMMARY:Grade mode change deadline
+UID:32779002-619c-4b84-a0b2-b300d260b9c2@3277.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250424
+DTEND;VALUE=DATE:20250424
+CATEGORIES:Spring 2025,Reading Period
+SUMMARY:Reading period (8:00 AM to 2:40 PM)
+UID:86f25c58-6ef6-46b0-9481-54586531faaa@86f2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251205
+CATEGORIES:Fall 2025,Thesis
+SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time
+UID:2dfae5d6-ff77-48b6-8619-0cf2402dad70@2dfa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250523
+DTEND;VALUE=DATE:20250523
+CATEGORIES:Summer 2025 - A ll Sessions,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Summer 2025 deadline
+UID:2fb16cca-be7c-44c5-bda9-2fba521688ee@2fb1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250601
+DTEND;VALUE=DATE:20250601
+CATEGORIES:Readmission,Fall 2025
+DESCRIPTION:or review
+SUMMARY:Readmission application for Fall 2025 deadline for student with academic standing of dropped
+UID:91372769-1d6e-4a14-ac6f-78f718976a9f@9137.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250521
+DTEND;VALUE=DATE:20250527
+CATEGORIES:Summer 2025 - Maymester,Faculty
+DESCRIPTION:All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern\nTime.
+SUMMARY:Verification of student participation in class.
+UID:554a3013-bd6f-46f7-abbb-ec05c1fa45ca@554a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250110
+DTEND;VALUE=DATE:20250110
+CATEGORIES:Spring 2025,Thesis
+SUMMARY:Thesis deadline for enrollment waiver
+UID:48c57e2d-5e83-4490-b375-49f296080319@48c5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250505
+DTEND;VALUE=DATE:20250514
+CATEGORIES:Registration,Summer 2025 - Maymester
+SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2025
+UID:48f2b4f3-1404-431b-a95e-5bec1859819c@48f2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250825
+DTEND;VALUE=DATE:20250825
+CATEGORIES:Fall 2025,Payment
+SUMMARY:Payment deadline 4:00 PM Eastern Time
+UID:c90e03a5-9ff2-494e-940a-72b8d5049605@c90e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250120
+DTEND;VALUE=DATE:20250120
+CATEGORIES:Spring 2025,Holiday
+SUMMARY:Official institute holiday - Martin Luther King\, Jr. Day
+UID:cf620dc0-c092-4601-b819-dec9588ebefe@cf62.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250519
+DTEND;VALUE=DATE:20250519
+CATEGORIES:Summer 2025 - A ll Sessions,Payment
+SUMMARY:Payment deadline 4:00 PM Eastern Time
+UID:55267824-8b04-4048-9ead-5f605e793a2f@5526.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250401
@@ -600,71 +203,108 @@ DTEND;VALUE=DATE:20250401
 CATEGORIES:Readmission,Summer 2025 - A ll Sessions
 DESCRIPTION:than dropped or review
 SUMMARY:Readmission application for Summer 2025 deadline for student with academic standing other
-UID:cfdefb6b-69e5-4806-912f-8dd225d80bf4@cfde.org
+UID:308a225f-08eb-48f4-a24d-b7ad28c74929@308a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250415
-DTEND;VALUE=DATE:20250415
+DTSTART;VALUE=DATE:20250505
+DTEND;VALUE=DATE:20250505
+CATEGORIES:Spring 2025,Faculty
+SUMMARY:Grade submission deadline
+UID:d36f8198-0dc6-468a-9295-538bea59a529@d36f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250512
+DTEND;VALUE=DATE:20250512
+CATEGORIES:Summer 2025 - Maymester,Classes
+SUMMARY:First day of classes for Maymester Summer
+UID:40906315-1198-464e-a2ce-d17cfd3bbe10@4090.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250530
+DTEND;VALUE=DATE:20250530
+CATEGORIES:Summer 2025 - Maymester,Classes
+SUMMARY:Last day of classes for Maymester summer
+UID:d2813b93-1ffd-4b3b-9e4d-78f8a0949afe@d281.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251218
+DTEND;VALUE=DATE:20251218
+CATEGORIES:Fall 2025,Graduation
+DESCRIPTION:Diplomas will be delivered within 8 weeks
+SUMMARY:Degree confirmation for all fall candidates
+UID:dd4d45e0-2458-486d-a565-628af288b5d1@dd4d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250410
 CATEGORIES:Registration,Summer 2025 - A ll Sessions
-SUMMARY:Cross-registration deadline for Summer 2025
-UID:a2a55624-ba47-400a-878c-86a4010ed45c@a2a5.org
+SUMMARY:Time tickets for Summer 2025 registration post at 6:00 PM Eastern Time
+UID:d298b614-419c-40b6-a73b-e15f641f3b03@d298.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250425
-DTEND;VALUE=DATE:20250425
-CATEGORIES:Thesis,Spring 2025
-SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time
-UID:ee058b72-3fc8-4b3c-8d30-3daa4ae21f01@ee05.org
+DTSTART;VALUE=DATE:20250822
+DTEND;VALUE=DATE:20250822
+CATEGORIES:Registration,Fall 2025
+DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade by 4:00 pm Eastern Time.\nNo changes to/from audit mode permitted after the registration deadline.
+SUMMARY:Fall 2025 Phase II registration closes at 4:00 PM Eastern Time
+UID:1474517f-e4ff-4c95-b9aa-e136af0e0f91@1474.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250807
+DTEND;VALUE=DATE:20250807
+CATEGORIES:Summer 2025 - A ll Sessions,Graduation
+DESCRIPTION:Diplomas will be delivered within 8 weeks
+SUMMARY:Degree confirmation for all Summer candidates
+UID:987e50a9-af5e-406d-91f1-8f29d6ac6fbc@987e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250102
+DTEND;VALUE=DATE:20250110
+CATEGORIES:Registration,Spring 2025
+SUMMARY:Tuition Assistance Program (TAP) registration for Spring 2025
+UID:9a1f1e53-61f9-4a47-92f6-508422322c81@9a1f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250807
+DTEND;VALUE=DATE:20250807
+CATEGORIES:Registration,Fall 2025
+SUMMARY:Time tickets for Fall 2025 Phase II registration
+UID:11f71089-95a0-455e-9de1-1d0a03c79579@11f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250501
+DTEND;VALUE=DATE:20250501
+CATEGORIES:Spring 2025,Classes
+SUMMARY:End of term
+UID:b4dee73b-2a33-4a37-aacb-ee9c518b397e@b4de.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250407
+CATEGORIES:Registration,Fall 2025
+SUMMARY:Schedule of Classes available online
+UID:db083ee0-0264-4317-827d-e492e7fc10b2@db08.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250526
+DTEND;VALUE=DATE:20250526
+CATEGORIES:Summer 2025 - A ll Sessions,Holiday
+SUMMARY:Memorial Day
+UID:83bcffbd-0383-41d3-b13b-2dd02e24287c@83bc.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250822
 CATEGORIES:Fall 2025,Graduation
 SUMMARY:Online Application for Graduation (OAG) for Fall 2025 deadline for graduate students
-UID:b7186570-7a57-406e-a370-277f0ace3dbf@b718.org
+UID:e447c7b3-74cc-439f-b56f-419fd7e388e2@e447.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250414
-DTEND;VALUE=DATE:20250514
-CATEGORIES:Registration,Summer 2025 - Maymester
-SUMMARY:Summer 2025 registration (one phase only)
-UID:d2ace44d-51f7-46e9-bb66-f1e90d97ef96@d2ac.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250110
-DTEND;VALUE=DATE:20250110
-CATEGORIES:Thesis,Spring 2025
-SUMMARY:Thesis deadline for enrollment waiver
-UID:4a577aaa-ddb7-44c2-b5d3-4188b32eba63@4a57.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250414
-DTEND;VALUE=DATE:20250516
-CATEGORIES:Fall 2025,Registration
-SUMMARY:Fall 2025 Phase I registration
-UID:76b34a86-f784-455c-8bdb-05b4ffc07d62@76b3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251205
-DTEND;VALUE=DATE:20251205
-CATEGORIES:Thesis,Fall 2025
-SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time
-UID:c3852b6b-00b7-44a4-86f5-2c6b926881d2@c385.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250523
-DTEND;VALUE=DATE:20250523
-CATEGORIES:Graduation,Summer 2025 - A ll Sessions
-SUMMARY:Online Application for Graduation (OAG) for Summer 2025 deadline
-UID:2f606ec6-b0de-4635-a939-3d7cbb1f394d@2f60.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250601
-DTEND;VALUE=DATE:20250601
-CATEGORIES:Fall 2025,Readmission
-DESCRIPTION:or review
-SUMMARY:Readmission application for Fall 2025 deadline for student with academic standing of dropped
-UID:3c9ddaa6-27cf-4bbb-be34-6402b97271e5@3c9d.org
+DTSTART;VALUE=DATE:20250506
+DTEND;VALUE=DATE:20250506
+CATEGORIES:Spring 2025,Grades
+SUMMARY:Final grades available online after 6:00 PM Eastern Time
+UID:ca8bb537-ace5-4645-a224-8fbb8d6efd82@ca8b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250508
@@ -672,36 +312,317 @@ DTEND;VALUE=DATE:20250508
 CATEGORIES:Spring 2025,Graduation
 DESCRIPTION:Diplomas will be delivered within 8 weeks
 SUMMARY:Degree confirmation for all spring candidates
-UID:1ef86eee-775d-4c4d-b482-44c9a130e1d6@1ef8.org
+UID:7aa21a0a-77a6-4c5d-a654-913ca97ae8bf@7aa2.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250115
-DTEND;VALUE=DATE:20250121
-CATEGORIES:Faculty,Spring 2025
-DESCRIPTION:All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern\nTime.
-SUMMARY:Verification of student participation in class
-UID:9ba0798c-d69d-45b5-9cf0-ea664835e369@9ba0.org
+DTSTART;VALUE=DATE:20250811
+DTEND;VALUE=DATE:20250822
+CATEGORIES:Registration,Fall 2025
+SUMMARY:Fall 2025 Phase II registration
+UID:47a26056-2a58-470b-ab84-cabe91fe34f5@47a2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251215
+CATEGORIES:Fall 2025,Faculty
+DESCRIPTION:All grades must be entered online by 12:00 PM Eastern Time.
+SUMMARY:Grade submission deadline
+UID:de39009c-47bc-45f8-80e6-dc269ad672a5@de39.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250815
+CATEGORIES:Fall 2025,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Fall 2025 deadline for undergraduate students
+UID:07c62ad7-dead-4e34-a165-af2b1d4d770c@07c6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250101
+DTEND;VALUE=DATE:20250101
+CATEGORIES:Spring 2025,Holiday
+SUMMARY:Official institute holiday - New Year's Day
+UID:24f8a496-4931-4304-b792-9d4601749a71@24f8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250822
+DTEND;VALUE=DATE:20250822
+CATEGORIES:Fall 2025,Thesis
+SUMMARY:Thesis deadline for enrollment waiver
+UID:2e10b1f3-23b5-450b-a984-7cb62930afad@2e10.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251203
+DTEND;VALUE=DATE:20251203
+CATEGORIES:Fall 2025,Reading Period
+SUMMARY:Reading period
+UID:df80f6a0-7718-4eb2-93fc-893210560a5c@df80.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251211
+CATEGORIES:Fall 2025,Classes
+SUMMARY:End of term
+UID:3b62f0a0-23d5-44b3-a056-73be2f4838f3@3b62.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251213
+CATEGORIES:Fall 2025,Graduation
+SUMMARY:Commencement
+UID:1d62dda6-a494-43e0-861f-c2e7d9cc19c2@1d62.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250804
+DTEND;VALUE=DATE:20250804
+CATEGORIES:Summer 2025 - A ll Sessions,Faculty
+SUMMARY:Grade submission deadline
+UID:63a1ff62-b5f1-44dc-8faf-02a4618f5eeb@63a1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251006
+DTEND;VALUE=DATE:20251007
+CATEGORIES:Recess,Fall 2025
+SUMMARY:Fall break. No classes. Campus open.
+UID:648c6aa4-80db-498f-af7a-87d51e220d32@648c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250805
+DTEND;VALUE=DATE:20250805
+CATEGORIES:Summer 2025 - A ll Sessions,Grades
+SUMMARY:Final grades available online after 6:00 PM Eastern Time
+UID:7c55bbf3-4419-43dd-839b-4401f6d860e4@7c55.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250224
+DTEND;VALUE=DATE:20250224
+CATEGORIES:Spring 2025,Faculty
+SUMMARY:Progress report deadline
+UID:b8f3787b-8bf1-4dc0-99c7-a09ec0a1d749@b8f3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250113
+DTEND;VALUE=DATE:20250113
+CATEGORIES:Spring 2025,Payment
+SUMMARY:Payment deadline 4:00 PM Eastern Time
+UID:8456f558-5c6f-4471-95db-4e7d7ab44604@8456.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250818
+DTEND;VALUE=DATE:20250818
+CATEGORIES:Fall 2025,Classes
+SUMMARY:First day of classes for Fall 2025
+UID:59369b22-74d7-4342-91cc-40ad0077f4d8@5936.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250522
+DTEND;VALUE=DATE:20250522
+CATEGORIES:Registration,Summer 2025 - Maymester
+DESCRIPTION:Last day to withdraw from a single course or from school with W grades for Maymester Summer Semester\n2025 by 4:00 PM Eastern Time. Students must withdraw from all classes in order to receive a refund.
+SUMMARY:Withdrawal deadline
+UID:cde2f9f8-7519-478c-8cf2-4f23f506f8fc@cde2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250715
+DTEND;VALUE=DATE:20250715
+CATEGORIES:Registration,Fall 2025
+SUMMARY:Cross-registration deadline for Fall 2025
+UID:0e1e9dd9-725d-4d66-a38b-5a85cf42ea1a@0e1e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251204
+DTEND;VALUE=DATE:20251204
+CATEGORIES:Fall 2025,Reading Period
+SUMMARY:Reading period. No exams 8:00 AM - 2:40 PM Eastern Time
+UID:90285fee-1f78-42b5-bfcd-ad17f98021c4@9028.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250110
+DTEND;VALUE=DATE:20250110
+CATEGORIES:Spring 2025,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Spring 2025 deadline
+UID:0582f7d5-15db-4c8d-a838-04d395c6864e@0582.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251027
+CATEGORIES:Fall 2025,Grades
+DESCRIPTION:Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time.
+SUMMARY:Grade substitution deadline
+UID:059044ce-934b-4c5d-b4e9-0983a031dc63@0590.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250201
+DTEND;VALUE=DATE:20250201
+CATEGORIES:Readmission,Summer 2025 - A ll Sessions
+DESCRIPTION:dropped or review
+SUMMARY:Readmission application for Summer 2025 deadline for student with academic standing of
+UID:f66cde65-d2e1-4e85-ba78-80c9f926d32c@f66c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250102
+DTEND;VALUE=DATE:20250110
+CATEGORIES:Registration,Spring 2025
+SUMMARY:Phase II registration for Spring 2025
+UID:0e5bc96e-332b-42f2-98ff-c87859a49db5@0e5b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250201
+DTEND;VALUE=DATE:20250201
+CATEGORIES:Readmission,Fall 2025
+SUMMARY:Readmission application for Fall 2025 opens
+UID:b95f6a15-916b-441d-ba9a-1c680721b237@b95f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251204
+DTEND;VALUE=DATE:20251211
+CATEGORIES:Exams,Fall 2025
+SUMMARY:Final exams
+UID:ba9f4d11-fb45-4204-bab3-6912e71829f4@ba9f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250516
 DTEND;VALUE=DATE:20250516
-CATEGORIES:Registration,Summer 2025 - Early Short\, Late Short and\nFull Sessions
-DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade by 4:00 PM Eastern Time.\nNo changes to/from audit mode permitted after the registration deadline.
-SUMMARY:Summer 2025 registration closes at 4:00 PM Eastern Time.
-UID:a9523c92-6b27-48f1-9462-b519dde8daab@a952.org
+CATEGORIES:Registration,Fall 2025
+SUMMARY:Fall 2025 Phase I registration closes at 4:00 PM Eastern Time
+UID:e9b47e29-4d35-4903-ac68-fa0c64615b48@e9b4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251209
+CATEGORIES:Fall 2025,Reading Period
+SUMMARY:Reading period. No exams 8:00 AM - 2:40 PM Eastern Time
+UID:bf229180-2b38-4fb6-b2ed-a44da21e9ac5@bf22.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250516
+DTEND;VALUE=DATE:20250516
+CATEGORIES:Summer 2025 - A ll Sessions,Thesis
+SUMMARY:Thesis deadline for enrollment waiver
+UID:738fb72f-01c0-41bb-8aa8-dacb46230d35@738f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250407
+CATEGORIES:Registration,Summer 2025 - A ll Sessions
+SUMMARY:Schedule of Classes available online
+UID:5823a869-36e8-4e9c-97ea-434080b4d57b@5823.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250317
+DTEND;VALUE=DATE:20250321
+CATEGORIES:Spring 2025,Holiday
+SUMMARY:Spring Break
+UID:aa9effe5-09f7-47a0-97c2-768185834f90@aa9e.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250424
-DTEND;VALUE=DATE:20250424
-CATEGORIES:Reading Period,Spring 2025
-SUMMARY:Reading period (8:00 AM to 2:40 PM)
-UID:14b01180-c409-407e-b773-51c50de6171e@14b0.org
+DTEND;VALUE=DATE:20250501
+CATEGORIES:Exams,Spring 2025
+DESCRIPTION:See the official exam schedule at\nhttps://registrar.gatech.edu/public/files/Final%20Exam%20Matrix%20for%20Spring%202025_0.pdf\nfor details. Policy in the Catalog under Rules/Regulations XII.D. Contact the Academic Scheduling team\nin the Registrar's Office with questions.
+SUMMARY:Final exams
+UID:6e869305-5b0c-4a97-bb98-37410f3886ae@6e86.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20240120
-DTEND;VALUE=DATE:20240120
-CATEGORIES:Summer 2025,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Fall 2025 opens
-UID:187fbc4b-80dd-4ed2-b95d-aecd5ca026da@187f.org
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250901
+CATEGORIES:Fall 2025,Holiday
+SUMMARY:Labor Day
+UID:87bbee9a-30fa-4d0c-b847-3f81a116287c@87bb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250115
+DTEND;VALUE=DATE:20250121
+CATEGORIES:Spring 2025,Faculty
+DESCRIPTION:All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern\nTime.
+SUMMARY:Verification of student participation in class
+UID:5e4eab3a-18de-494e-8d41-d117d7c49eb6@5e4e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250312
+CATEGORIES:Registration,Spring 2025
+DESCRIPTION:Last day to withdraw from a single course or from school with W grades for Spring Semester 2025 by\n4:00 PM Eastern Time. Students must withdraw from all classes in order to receive a refund.
+SUMMARY:Withdrawal deadline
+UID:5df3d41d-a662-4632-b407-4eb304966105@5df3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250425
+DTEND;VALUE=DATE:20250425
+CATEGORIES:Spring 2025,Thesis
+SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time
+UID:65b250c1-2dbb-4023-9a22-2ddb68b0ae0d@65b2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+CATEGORIES:Fall 2025,Classes
+SUMMARY:Final instructional class days for Fall 2025
+UID:fdc20423-302b-4dbc-b374-ec7a454ec001@fdc2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20240902
+DTEND;VALUE=DATE:20240902
+CATEGORIES:Spring 2025,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Spring 2025 opens
+UID:f4db16bd-25da-4e72-a405-0fa4cd6064ab@f4db.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251127
+DTEND;VALUE=DATE:20251128
+CATEGORIES:Fall 2025,Holiday
+SUMMARY:Thanksgiving break
+UID:c7199b37-8f86-46ed-a32e-9e2f83f5e2c4@c719.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250415
+DTEND;VALUE=DATE:20250415
+CATEGORIES:Registration,Summer 2025 - A ll Sessions
+SUMMARY:Cross-registration deadline for Summer 2025
+UID:26ac598d-844e-46d3-a438-8ac09adecf9c@26ac.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250423
+DTEND;VALUE=DATE:20250423
+CATEGORIES:Spring 2025,Reading Period
+SUMMARY:Reading period
+UID:81f5ab83-dfe8-49b3-8052-e31119dc79ea@81f5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250701
+DTEND;VALUE=DATE:20250701
+CATEGORIES:Readmission,Fall 2025
+DESCRIPTION:dropped or review
+SUMMARY:Readmission application for Fall 2025 deadline for student with academic standing other than
+UID:f3f7fb09-6500-4140-b867-8895d4855f5d@f3f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250312
+CATEGORIES:Spring 2025,Grades
+DESCRIPTION:Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time.
+SUMMARY:Grade substitution deadline
+UID:6da96b28-baa5-49fd-955a-5ed4ede722fb@6da9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251006
+DTEND;VALUE=DATE:20251006
+CATEGORIES:Fall 2025,Faculty
+SUMMARY:Progress report deadline
+UID:1bd009cd-a95d-4a45-9361-cfb226f63aa3@1bd0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250502
+DTEND;VALUE=DATE:20250503
+CATEGORIES:Spring 2025,Graduation
+SUMMARY:Commencement
+UID:c8032c2f-b3b5-4944-9ecb-38d3dfc767aa@c803.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250110
+DTEND;VALUE=DATE:20250110
+CATEGORIES:Registration,Spring 2025
+DESCRIPTION:Last day to register\, make schedule changes\, and/or drop without a W grade by 4:00 pm Eastern Time.\nNo changes to/from audit mode permitted after the registration deadline.
+SUMMARY:Phase II registration for Spring 2025 closes at 4:00 PM Eastern Time
+UID:400d46be-d8fe-4447-8ca6-70dc8f7be895@400d.org
 END:VEVENT
 END:VCALENDAR
