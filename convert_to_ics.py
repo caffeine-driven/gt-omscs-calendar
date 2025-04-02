@@ -247,7 +247,7 @@ if __name__ == "__main__":
 
         for pdf_url in pdf_urls:
             local_pdf_file = f'{index}.pdf'
-            # download_file(pdf_url, local_pdf_file)
+            download_file(pdf_url, local_pdf_file)
             index += 1
             if 'spring' in pdf_url:
                 chosen_semester = 'Spring'
