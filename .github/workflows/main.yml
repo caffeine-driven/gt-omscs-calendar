@@ -31,7 +31,7 @@ jobs:
     - name: Check for changes in output and index.html
       id: check_changes
       run: |
-        if git diff --quiet HEAD^1 -- output index.html; then
+        if git diff --quiet HEAD~1 -- output index.html; then
           echo "No changes detected in 'output' or 'index.html'. Skipping deployment."
           echo "should_deploy=false" >> $GITHUB_OUTPUT
         else
