@@ -28,8 +28,20 @@ jobs:
 
     - name: Run Python script to download and convert Excel to ICS
       run: python convert_to_ics.py
-
+    - name: Check for changes in output and index.html
+      id: check_changes
+      run: |
+        if git diff --quiet HEAD^1 -- output index.html; then
+          echo "No changes detected in 'output' or 'index.html'. Skipping deployment."
+          echo "should_deploy=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected in 'output' or 'index.html'. Proceeding with deployment."
+          echo "should_deploy=true" >> $GITHUB_OUTPUT
+        fi
     - name: Deploy to GitHub Pages
+      id: deployment
+        # 이전 단계에서 'should_deploy' 값이 'true'일 때만 이 단계를 실행합니다.
+      if: steps.check_changes.outputs.should_deploy == 'true'
       run: |
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Action"
