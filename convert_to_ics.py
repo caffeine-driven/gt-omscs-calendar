@@ -1,5 +1,4 @@
-import re
-from io import StringIO
+import json
 from typing import Optional
 
 import pdfplumber
@@ -11,103 +10,16 @@ from datetime import datetime, date, time
 from jinja2 import Environment, FileSystemLoader
 
 
-def download_file(target_url: str, save_path: str):
-    """
-    Downloads an Excel file from a given URL and saves it to the specified path.
-
-    Parameters:
-    target_url (str): The URL of the Excel file to download.
-    save_path (str): The local path where the downloaded file will be saved.
-    """
-    response = requests.get(target_url)
-
-    # Save the Excel file locally
-    with open(save_path, 'wb') as file:
-        file.write(response.content)
-
-    print(f"File downloaded to {save_path}")
-
-def read_csv(file_path: str) -> pd.DataFrame:
-    return pd.read_csv(file_path, sep="\t", dtype=str)
-
-def read_pdf(file_path: str, target_semester: str) -> pd.DataFrame:
-    all_table_rows = []
-    with pdfplumber.open(file_path) as pdf:
-        for page in pdf.pages:
-            tables = page.extract_tables()
-            for table in tables:
-                for row in table:
-                    if row[0].strip() == 'TBD':
-                        continue
-                    semester = row[1].strip()
-                    category = row[2].strip()
-                    semester_season = semester.split(' ')[0]
-                    if target_semester and target_semester != semester_season:
-                        continue
-                    semester_year = int(semester.split(' ')[1])
-                    dates = row[0].strip().split("-")
-                    start = parse_flexible_date(dates[0], semester_year)
-                    if len(dates) == 1:
-                        end = None
-                    else:
-                        end = parse_flexible_date(dates[1], semester_year)
-                    body_rows = row[3].strip().split('\n')
-
-                    title = body_rows[0]
-                    if body_rows[1:]:
-                        body = "\n".join(body_rows[1:])
-                    else:
-                        body = None
-                    all_table_rows.append([start, end, semester, category, title, body])
-    return pd.DataFrame(all_table_rows, columns=['Date', 'EndDate', 'Semester', 'Category', 'Title', 'Body'])
-
-
-def parse_flexible_date(date_str, current_year):
-    date_str = date_str.strip()
-    date_str = date_str.replace('Thur', 'Thu')
-    date_str = date_str.replace('Tues', 'Tue')
-    date_str = date_str.replace('(', ' (')
-    date_str = date_str.replace('( ', '(')
-    date_str = date_str.replace(' )', ')')
-    date_str = date_str.replace('  ', ' ')
-    try:
-        # Try parsing with year
-        return pd.to_datetime(date_str, format="%B %d, %Y (%a)").date()
-    except ValueError:
-        # If year is missing, assume the current year
-        date_with_year = f"{date_str} {current_year}"  # Append current year
-        return pd.to_datetime(date_with_year, format="%B %d (%a) %Y").date()
-
 def convert_txt_to_ics(df: pd.DataFrame):
     # Create a calendar
     calendar = Calendar()
 
     # Iterate through the rows in the DataFrame and create events
     for _, row in df.iterrows():
-        # Parse the start date (format is "%m/%d/%Y")
-        if isinstance(row['Date'], str):
-            start_date = datetime.strptime(row['Date'], "%m/%d/%Y").date()
-        else:
-            start_date = row['Date']
-
-        if 'Time' not in df.columns or pd.isna(row['Time']):  # If start time is null, treat as an all-day
-            start_time = None
-        else:
-            start_time = datetime.strptime(row['Time'], "%H:%M").time()
-
-        # Handle end time and end date
-        if pd.notna(row['EndDate']):
-            if isinstance(row['EndDate'], str):
-                end_date = datetime.strptime(row['EndDate'], "%m/%d/%Y").date()
-            else:
-                end_date = row['EndDate']
-        else:
+        start_date = row['start_date']
+        end_date = row['end_date']
+        if not end_date:
             end_date = start_date
-
-        if 'EndTime' not in df.columns or pd.isna(row['EndTime']):
-            end_time = None
-        else:
-            end_time = datetime.strptime(row['EndTime'], "%H:%M").time()
 
         # Calculate the duration of the event in days
         duration = (end_date - start_date).days
@@ -117,35 +29,29 @@ def convert_txt_to_ics(df: pd.DataFrame):
 
             # Create the first event for the start date
             event_start = create_single_day_event(
-                f"{row['Title']} (Start)", start_date,
-                row['Body'] if pd.notna(row['Body']) else "",
-                get_column(row, df, 'EventLocation'),
-                get_column(row, df, 'Semester'),
-                get_column(row, df, 'Category'),
+                f"{row['event']} (Start)", start_date,
+                get_column(row, df, 'semester'),
+                get_column(row, df, 'category'),
             )
             calendar.events.add(event_start)
 
             # Create the second event for the end date
             event_end = create_single_day_event(
-                f"{row['Title']} (End)",
+                f"{row['event']} (End)",
                 end_date,
-                row['Body'] if pd.notna(row['Body']) else "",
-                get_column(row, df, 'EventLocation'),
-                get_column(row, df, 'Semester'),
-                get_column(row, df, 'Category'),
+                get_column(row, df, 'semester'),
+                get_column(row, df, 'category'),
             )
             calendar.events.add(event_end)
         else:
             event = Event()
-            event.name = row['Title']
+            event.name = row['event']
             # If the event is 10 days or shorter, create a single event
             event = create_multi_day_event(
-                row['Title'],
-                start_date, start_time, end_date, end_time,
-                row['Body'] if pd.notna(row['Body']) else "",
-                get_column(row, df, 'EventLocation'),
-                get_column(row, df, 'Semester'),
-                get_column(row, df, 'Category'),
+                row['event'],
+                start_date, None, end_date, None,
+                get_column(row, df, 'semester'),
+                get_column(row, df, 'category'),
             )
             calendar.events.add(event)
 
@@ -230,49 +136,78 @@ def write_calendar_from_df(data_frames, output_ics_file):
 
 if __name__ == "__main__":
     # Example usage:
-    urls = [
-        'https://registrar.gatech.edu/info/current-academic-calendar',
-        'https://registrar.gatech.edu/info/future-academic-calendars'
-    ]
-    index = 0
-    full_session_data_frames = []
-    early_short_data_frames = []
-    late_short_data_frames = []
-    maymester_data_frames = []
-    for url in urls:
-        response = requests.get(url)
-        response_txt = response.text
-        pattern = r"https://[^\s\"']+\.pdf"
-        pdf_urls = re.findall(pattern, response_txt)
-        if not pdf_urls:
-            continue
 
-        for pdf_url in pdf_urls:
-            local_pdf_file = f'{index}.pdf'
-            download_file(pdf_url, local_pdf_file)
-            index += 1
-            if 'spring' in pdf_url:
-                chosen_semester = 'Spring'
-            elif 'fall' in pdf_url:
-                chosen_semester = 'Fall'
-            else:
-                chosen_semester = None
+    url = 'https://registrar.gatech.edu/calevents/proxy'
+    current_year = datetime.now().year
+    next_year = current_year + 1
+    query = {
+        "year":f"{current_year}-{next_year}",
+        "status":"current"
+    }
+    response = requests.get(url, headers={
+        'Referer':'https://registrar.gatech.edu/current-academic-calendar'
+    }, params=query)
 
-            data_frame = read_pdf(local_pdf_file, chosen_semester)
-            if 'summer' in pdf_url:
-                if 'full' in pdf_url:
-                    full_session_data_frames.append(data_frame)
-                elif 'maymester' in pdf_url:
-                    maymester_data_frames.append(data_frame)
-                elif 'early' in pdf_url:
-                    early_short_data_frames.append(data_frame)
-                elif 'last' in pdf_url:
-                    late_short_data_frames.append(data_frame)
+    res_data = response.json()
+    semesters = {
+        '5A': 'Summer-All',
+        '8': 'Fall',
+        '5M': 'Summer-May',
+        '5F': 'Summer-Full',
+        '5E': 'Summer-Early',
+        '5L': 'Summer-Late',
+        '2': 'Spring'
+    }
+    data = res_data['data']
+    def parse_date(x):
+        date_str = x['date'].strip()
+        date_str = date_str.replace('Thur', 'Thu')
+        date_str = date_str.replace('Tues', 'Tue')
+        date_str = date_str.replace('( ', '(')
+        date_str = date_str.replace(' )', ')')
+        if '–' in date_str:
+            dates = date_str.split(' – ')
+        else:
+            dates = date_str.split(' - ')
+        if len(dates) > 1:
+            start_month = dates[0].split()[0]
+            end_date_str = dates[1].split()[0]
+            if '0' <= end_date_str[0] <= '9':
+                end_date_str = f'{start_month} {dates[1]}'
             else:
-                full_session_data_frames.append(data_frame)
-                early_short_data_frames.append(data_frame)
-                late_short_data_frames.append(data_frame)
-                maymester_data_frames.append(data_frame)
+                end_date_str = dates[1]
+            start_date = datetime.strptime(f'{x["year"]} {dates[0]}', "%Y %B %d (%a)").date()
+            end_date = datetime.strptime(f'{x["year"]} {end_date_str}', "%Y %B %d (%a)").date()
+        else:
+            start_date = datetime.strptime(f'{x["year"]} {dates[0]}', "%Y %B %d (%a)").date()
+            end_date = None
+        event_str = x['event']
+        event_str = event_str.replace('<p>', '')
+        event_str = event_str.replace('</p>', '')
+
+        return {
+            **x,
+            'start_date': start_date,
+            'end_date': end_date,
+            'semester': semesters[x['semester']],
+            'event': event_str,
+        }
+    converted_data = list(map(parse_date, data))
+
+    df_calendar = pd.DataFrame(converted_data)
+
+    spring = df_calendar[df_calendar['semester'] == 'Spring']
+    fall = df_calendar[df_calendar['semester'] == 'Fall']
+    summer_full = df_calendar[df_calendar['semester'] == 'Summer-Full']
+    summer_early = df_calendar[df_calendar['semester'] == 'Summer-Early']
+    summer_late = df_calendar[df_calendar['semester'] == 'Summer-Late']
+    summer_maymester = df_calendar[df_calendar['semester'] == 'Summer-May']
+
+    full_session_data_frames = [spring, fall, summer_full]
+    early_short_data_frames = [spring, fall, summer_early]
+    late_short_data_frames = [spring, fall, summer_late]
+    maymester_data_frames = [spring, fall, summer_maymester]
+
 
     parsed_list = []
     if full_session_data_frames:
@@ -304,26 +239,3 @@ if __name__ == "__main__":
             'name': "With Maymester Summer Semester"
         })
     write_html(parsed_list)
-
-
-    # target_list = (
-    #     ('Spring 2025', '202502'),
-    #     ('Summer 2025', '202505'),
-    # )
-    # parsed_list = []
-    # for term_name, code in target_list:
-    #     txt_url = f'https://ro-blob.azureedge.net/ro-calendar-data/public/txt/{code}.txt'
-    #     excel_url = f'https://func-calendarxlsx-prod-001.azurewebsites.net/api/getExcel?termCode={code}'
-    #     local_excel_file = f'academic_calendar_{code}.xlsx'
-    #     local_txt_file = f'academic_calendar_{code}.txt'
-    #     output_ics_file = f'output/academic_calendar_{code}.ics'
-    #
-    #     # download_file(excel_url, local_excel_file)
-    #     download_file(txt_url, local_txt_file)
-    #     cal = convert_txt_to_ics(local_txt_file)
-    #     write_calendar_to_ics(cal, output_ics_file)
-    #     parsed_list.append({
-    #         'path': output_ics_file,
-    #         'name': term_name
-    #     })
-    # write_html(parsed_list)
