@@ -24,14 +24,14 @@ def convert_txt_to_ics(df: pd.DataFrame):
         # Calculate the duration of the event in days
         duration = (end_date - start_date).days
 
-        if end_date and duration > 40:
+        if end_date and duration > 10:
             # Split the event into two separate events for the start and end dates
 
             # Create the first event for the start date
             event_start = create_single_day_event(
                 f"{row['event']} (Start)", start_date,
-                get_column(row, df, 'semester'),
-                get_column(row, df, 'category'),
+                semester=get_column(row, df, 'semester'),
+                category=get_column(row, df, 'category'),
             )
             calendar.events.add(event_start)
 
@@ -39,8 +39,8 @@ def convert_txt_to_ics(df: pd.DataFrame):
             event_end = create_single_day_event(
                 f"{row['event']} (End)",
                 end_date,
-                get_column(row, df, 'semester'),
-                get_column(row, df, 'category'),
+                semester=get_column(row, df, 'semester'),
+                category=get_column(row, df, 'category'),
             )
             calendar.events.add(event_end)
         else:
@@ -50,8 +50,8 @@ def convert_txt_to_ics(df: pd.DataFrame):
             event = create_multi_day_event(
                 row['event'],
                 start_date, None, end_date, None,
-                get_column(row, df, 'semester'),
-                get_column(row, df, 'category'),
+                semester=get_column(row, df, 'semester'),
+                category=get_column(row, df, 'category'),
             )
             calendar.events.add(event)
 
@@ -64,13 +64,20 @@ def get_column(row, df: pd.DataFrame, column: str) -> Optional[str]:
         return None
 
 
-def create_single_day_event(title: str, start_date: date, description: str, location: str, semester: str = None, category: str = None):
+def create_single_day_event(
+        title: str, start_date: date,
+        description: Optional[str] = None, location: Optional[str] = None,
+        semester: Optional[str] = None, category: Optional[str] = None
+):
     event = Event()
     event.name = f'{title} - {semester}'
     event.begin = start_date
     event.make_all_day()
-    event.description = description
-    event.location = location
+    event.description = ""
+    if description:
+        event.description = description
+    if location:
+        event.location = location
     categories = set()
     if semester:
         categories.add(semester)
@@ -83,7 +90,9 @@ def create_single_day_event(title: str, start_date: date, description: str, loca
 
 
 def create_multi_day_event(
-        title: str, start_date: date, start_time: time, end_date: date, end_time: time, description: str, location: str, semester: str = None, category: str = None
+        title: str, start_date: date, start_time: Optional[time], end_date: date, end_time: Optional[time],
+        description: Optional[str] = None, location: Optional[str] = None,
+        semester: Optional[str] = None, category: Optional[str] = None
 ):
     event = Event()
     event.name = f'{title} - {semester}'
@@ -98,8 +107,11 @@ def create_multi_day_event(
         event.make_all_day()
     else:
         event.end = datetime.combine(end_date, end_time)
-    event.description = description
-    event.location = location
+    event.description = ""
+    if description:
+        event.description = description
+    if location:
+        event.location = location
     categories = set()
     if semester:
         categories.add(semester)
