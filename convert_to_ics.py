@@ -151,16 +151,17 @@ if __name__ == "__main__":
 
     url = 'https://registrar.gatech.edu/calevents/proxy'
     current_year = datetime.now().year
+    prev_year = current_year
     next_year = current_year + 1
     query = {
-        "year":f"{current_year}-{next_year}",
+        "year":f"{prev_year}-{current_year}",
         "status":"current"
     }
     response = requests.get(url, headers={
         'Referer':'https://registrar.gatech.edu/current-academic-calendar'
     }, params=query)
 
-    res_data = response.json()
+    res_data_current = response.json()
     semesters = {
         '5A': 'Summer-All',
         '8': 'Fall',
@@ -170,7 +171,28 @@ if __name__ == "__main__":
         '5L': 'Summer-Late',
         '2': 'Spring'
     }
-    data = res_data['data']
+    data_current = res_data_current['data']
+
+    future_query = {
+        "year":f"{current_year}-{next_year}",
+        "status":"future"
+    }
+    response_future = requests.get(url, headers={
+        'Referer':'https://registrar.gatech.edu/current-academic-calendar'
+    }, params=future_query)
+
+    res_data_future = response_future.json()
+    semesters = {
+        '5A': 'Summer-All',
+        '8': 'Fall',
+        '5M': 'Summer-May',
+        '5F': 'Summer-Full',
+        '5E': 'Summer-Early',
+        '5L': 'Summer-Late',
+        '2': 'Spring'
+    }
+    data_future = res_data_future['data']
+
     def parse_date(x):
         date_str = x['date'].strip()
         date_str = date_str.replace('Thur', 'Thu')
@@ -190,6 +212,8 @@ if __name__ == "__main__":
                 end_date_str = dates[1]
             start_date = datetime.strptime(f'{x["year"]} {dates[0]}', "%Y %B %d (%a)").date()
             end_date = datetime.strptime(f'{x["year"]} {end_date_str}', "%Y %B %d (%a)").date()
+            if end_date < start_date:
+                end_date = end_date.replace(year=end_date.year+1)
         else:
             start_date = datetime.strptime(f'{x["year"]} {dates[0]}', "%Y %B %d (%a)").date()
             end_date = None
@@ -204,9 +228,10 @@ if __name__ == "__main__":
             'semester': semesters[x['semester']],
             'event': event_str,
         }
-    converted_data = list(map(parse_date, data))
+    converted_data_current = list(map(parse_date, data_current))
+    converted_data_future = list(map(parse_date, data_future))
 
-    df_calendar = pd.DataFrame(converted_data)
+    df_calendar = pd.DataFrame(converted_data_current+converted_data_future)
 
     spring = df_calendar[df_calendar['semester'] == 'Spring']
     fall = df_calendar[df_calendar['semester'] == 'Fall']
