@@ -6,20 +6,22 @@ on:
       - main
   schedule:
     - cron: '0 0 * * 1'  # Runs every Monday at midnight
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository content
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-
 
     - name: Install dependencies
       run: |
@@ -27,21 +29,23 @@ jobs:
         pip install -r requirements.txt
         mkdir -p output
 
-    - name: Run Python script to download and convert Excel to ICS
+    - name: Run Python script to generate ICS
       run: python convert_to_ics.py
+
     - name: Check for changes in output and index.html
       id: check_changes
       run: |
-        if git diff --quiet HEAD~1 -- output index.html; then
+        if [ -z "$(git status --porcelain output index.html)" ]; then
           echo "No changes detected in 'output' or 'index.html'. Skipping deployment."
           echo "should_deploy=false" >> $GITHUB_OUTPUT
         else
           echo "Changes detected in 'output' or 'index.html'. Proceeding with deployment."
           echo "should_deploy=true" >> $GITHUB_OUTPUT
         fi
+
     - name: Deploy to GitHub Pages
       id: deployment
-        # 이전 단계에서 'should_deploy' 값이 'true'일 때만 이 단계를 실행합니다.
+      # 이전 단계에서 'should_deploy' 값이 'true'일 때만 이 단계를 실행합니다.
       if: steps.check_changes.outputs.should_deploy == 'true'
       run: |
         git config --global user.email "actions@github.com"
@@ -50,4 +54,5 @@ jobs:
         git commit -m "Update academic calendar ICS file"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the built-in GitHub token for authentication
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
