@@ -2,67 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261210
-CATEGORIES:Fall,Reading Period
-DESCRIPTION:\nFall\,Reading Period
-SUMMARY:Reading period. No exams 8:00 AM - 2:40 PM Eastern Time - Fall
-UID:0bbb5e28-b7af-49ac-8163-1538a631c574@0bbb.org
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261219
+CATEGORIES:Fall,Graduation
+DESCRIPTION:\nFall\,Graduation
+SUMMARY:Commencement - Fall
+UID:8794d37d-f5c9-47be-9f3d-f7858a0f9eaf@8794.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-CATEGORIES:Summer-Full,Classes
-DESCRIPTION:\nSummer-Full\,Classes
-SUMMARY:Final instructional class days for Full Session Summer - Summer-Full
-UID:2bb95a48-c018-4994-b93b-753be139eddb@2bb9.org
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270317
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Withdrawal deadline. Last day to withdraw from a single course or from school with W grades for Spring Semester 2027 by 11:59 PM Eastern Time. Students must withdraw from all classes in order to receive a refund. - Spring
+UID:18998eea-47c8-40a4-9c6f-79799fecfb7a@1899.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261014
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Spring 2027 Schedule of Classes available online - Spring
-UID:8026148b-8780-49d2-87ca-08ca7be61135@8026.org
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261224
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Time tickets for Spring 2027 Phase II registration post at 6:00 PM Eastern Time - Spring
+UID:98bfccf0-b191-4ffe-909d-aa3310ccfd68@98bf.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261019
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Second Half Term (Start) - Fall
-UID:44f04dd4-e37f-4b97-8684-8932d476c026@44f0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260909
+DTSTART;VALUE=DATE:20260413
 CATEGORIES:Registration,Fall
 DESCRIPTION:\nRegistration\,Fall
-SUMMARY:First Minimester Withdraw Deadline - Fall
-UID:95e9d111-754b-4c37-9d2e-1153f70d192f@95e9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270426
-DTEND;VALUE=DATE:20270427
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:Final instructional class days for Spring 2027 - Spring
-UID:e84bef74-5937-4e8d-81cf-11a07156b371@e84b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270423
-DTEND;VALUE=DATE:20270423
-CATEGORIES:Spring,Thesis
-DESCRIPTION:\nSpring\,Thesis
-SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time - Spring
-UID:b910cde6-f662-44bf-9ce9-7466bd482f3e@b910.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261217
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:End of term - Fall
-UID:efb3fd2e-3a25-4aff-a897-659af029e929@efb3.org
+SUMMARY:Fall 2026 Phase I registration - Current students only (Start) - Fall
+UID:4c866f6f-8508-4c33-9b73-cccd5068e342@4c86.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261118
@@ -70,758 +38,90 @@ DTEND;VALUE=DATE:20261118
 CATEGORIES:Registration,Fall
 DESCRIPTION:\nRegistration\,Fall
 SUMMARY:Third Minimester Withdraw Deadline - Fall
-UID:0ba1caf6-d4fa-4b18-a9b4-7233d26c49c3@0ba1.org
+UID:eb3e5656-c3ca-4881-94e3-e25d81e2dadb@eb3e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270317
-CATEGORIES:Spring,Grades
-DESCRIPTION:\nSpring\,Grades
-SUMMARY:Grade substitution deadline. Last day to apply for grade substitution. Forms must be submitted no later than 11:59 PM Eastern Time. - Spring
-UID:200d244f-704e-4a0c-aa86-64449194e2fa@200d.org
+DTSTART;VALUE=DATE:20270115
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Tuition Assistance Program (TAP) registration for Spring 2027 (End) - Spring
+UID:01a34e87-c9d1-4b03-b0c3-7f73dabe9f13@01a3.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261224
-DTEND;VALUE=DATE:20261224
-CATEGORIES:Fall,Graduation
-DESCRIPTION:\nFall\,Graduation
-SUMMARY:Degree confirmation for all fall candidates. Diplomas will be delivered within 12 weeks. - Fall
-UID:a37216cd-871c-4fd1-8272-477388651525@a372.org
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270129
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:First Minimester Withdraw Deadline - Spring
+UID:db9ef675-e544-4c68-8519-c52684bf99a3@db9e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20270101
+CATEGORIES:Fall,Holiday
+DESCRIPTION:\nFall\,Holiday
+SUMMARY:Official institute holiday -- Winter break - Fall
+UID:b2b83a5f-54e8-44d7-9cf0-92a6448d193a@b2b8.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260522
 CATEGORIES:Registration,Summer-Full
 DESCRIPTION:\nRegistration\,Summer-Full
 SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2026 (End) - Summer-Full
-UID:fc100d88-219c-41b3-9eb8-29240ec995f0@fc10.org
+UID:c198112b-e3dd-487b-bcb6-271773ecd0fa@c198.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261217
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Third Minimester (End) - Fall
-UID:e81d9e32-b4a0-4db6-8a86-1b4e4ab6c32a@e81d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260715
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Cross-registration deadline for Fall 2026 - Fall
-UID:5e958649-5ebb-4ebb-9918-d82114403e2c@5e95.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261102
-CATEGORIES:Grades,Fall
-DESCRIPTION:\nGrades\,Fall
-SUMMARY:Grade substitution deadline. Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time. - Fall
-UID:75b41781-b14e-4196-bfc5-e250f8b87f84@75b4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260615
-DTEND;VALUE=DATE:20260615
-CATEGORIES:Summer-Full,Faculty
-DESCRIPTION:\nSummer-Full\,Faculty
-SUMMARY:Progress report deadline. - Summer-Full
-UID:c80a03c5-1502-4f74-8182-786b78072734@c80a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270511
-DTEND;VALUE=DATE:20270511
-CATEGORIES:Spring,Grades
-DESCRIPTION:\nSpring\,Grades
-SUMMARY:Final grades available online after 6:00 PM Eastern Time. Final grades available online by 12:00 PM (Noon) Eastern Time - Spring
-UID:179426f5-a5af-410b-bcac-48558b7f988c@1794.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270115
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Phase II registration for Spring 2027 closes at 11:59 PM Eastern Time. Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 pm Eastern Time. No changes to/from audit mode permitted after the registration deadline. - Spring
-UID:fb5dc8cb-1a48-4167-b92a-bedfcc900fb2@fb5d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260701
-CATEGORIES:Fall,Readmission
-DESCRIPTION:\nFall\,Readmission
-SUMMARY:Readmission application for Fall 2026 deadline for students with academic standing other than dropped or review - Fall
-UID:cc0b52c2-1bd9-4497-af12-e6b382165a10@cc0b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260706
-CATEGORIES:Grades,Summer-Full
-DESCRIPTION:\nGrades\,Summer-Full
-SUMMARY:Grade substitution deadline. Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time. - Summer-Full
-UID:a41c01bb-e650-4629-b33a-a0f43a623ba5@a41c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261222
-DTEND;VALUE=DATE:20261222
-CATEGORIES:Grades,Fall
-DESCRIPTION:\nGrades\,Fall
-SUMMARY:Final grades available online after 6:00 PM Eastern Time - Fall
-UID:4b63a17d-2d3c-4f97-80c8-92d8a39939da@4b63.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261211
-CATEGORIES:Fall,Thesis
-DESCRIPTION:\nFall\,Thesis
-SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time - Fall
-UID:9449d01d-a635-4d05-b9e9-cb41679207ea@9449.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260120
-DTEND;VALUE=DATE:20260120
-CATEGORIES:Fall,Graduation
-DESCRIPTION:\nFall\,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Fall 2026 opens - Fall
-UID:9549e8bb-f3fc-48a0-a62c-9839b09bf863@9549.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261102
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Third Minimester (Start) - Fall
-UID:e5b0848b-9448-4c06-af8a-1b8a9ffb8c6c@e5b0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270317
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Second Half Term Withdraw Deadline - Spring
-UID:01e5f135-2060-4e78-885a-6fab7adc1c52@01e5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-CATEGORIES:Holiday,Fall
-DESCRIPTION:\nHoliday\,Fall
-SUMMARY:Official institute holiday -- Thanksgiving break - Fall
-UID:2fddd176-3b2f-4611-9270-d45689156513@2fdd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261219
-CATEGORIES:Fall,Graduation
-DESCRIPTION:\nFall\,Graduation
-SUMMARY:Commencement - Fall
-UID:bd3f7c83-b588-4fee-b337-233360c9f0e4@bd3f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260609
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 registration (Continuing OMS Computer Science only) (Start) - Fall
-UID:164f69b6-f520-4110-ac29-a5e53717331b@164f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260908
-CATEGORIES:Fall,Faculty
-DESCRIPTION:\nFall\,Faculty
-SUMMARY:Verification of student participation in class. All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern Time. - Fall
-UID:fd3a0789-f099-43b0-8e3e-7961a512d238@fd3a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260813
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Time tickets for Fall 2026 Phase II registration post at 6:00 PM Eastern Time - Fall
-UID:2bdccad9-d759-4b3b-ba58-2fc0146c511e@2bdc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20260806
-CATEGORIES:Summer-Full,Classes
-DESCRIPTION:\nSummer-Full\,Classes
-SUMMARY:End of term - Summer-Full
-UID:8ce91946-ba00-47e0-83c0-88373fbf96bd@8ce9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261014
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Second Minimester Withdraw Deadline - Fall
-UID:320776fd-2096-40fa-92a1-5f5ed3965597@3207.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270317
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Withdrawal deadline. Last day to withdraw from a single course or from school with W grades for Spring Semester 2027 by 11:59 PM Eastern Time. Students must withdraw from all classes in order to receive a refund. - Spring
-UID:abe0d0c3-387b-4246-ab57-3ff55e39828b@abe0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260527
-DTEND;VALUE=DATE:20260602
-CATEGORIES:Summer-Full,Faculty
-DESCRIPTION:\nSummer-Full\,Faculty
-SUMMARY:Verification of student participation in class. All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern Time. - Summer-Full
-UID:344edfbf-7dc4-461b-b2dd-1516e5e6d77f@344e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261030
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Second Minimester (End) - Fall
-UID:dccad72f-f8dd-4004-981f-ba5b9ab28876@dcca.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260731
-CATEGORIES:Summer-Full,Thesis
-DESCRIPTION:\nSummer-Full\,Thesis
-SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time - Summer-Full
-UID:c207d085-55eb-430a-894c-d8e5b9b842ca@c207.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260817
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 Phase II registration (Start) - Fall
-UID:6e08a1b0-2c87-4f26-9611-c7535f08ebef@6e08.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260705
-DTEND;VALUE=DATE:20260705
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Withdrawal deadline. Last day to withdraw from a single course or from school with W grades for Full Session Summer Semester 2026 by 11:59 PM Eastern Time. Students must withdraw from all classes in order to receive a refund. - Summer-Full
-UID:ffe5092e-2750-448a-a0ee-ad4332cc2792@ffe5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270504
-DTEND;VALUE=DATE:20270504
-CATEGORIES:Spring,Reading Period
-DESCRIPTION:\nSpring\,Reading Period
-SUMMARY:Reading period (8:00 AM to 10:50 AM) - Spring
-UID:12fb26b5-ad1c-4277-9ee0-205bed2e7668@12fb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260511
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2026 (Start) - Summer-Full
-UID:1693d4bf-1471-4968-ad3e-cf3e56a7b1bb@1693.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261012
-CATEGORIES:Fall,Faculty
-DESCRIPTION:\nFall\,Faculty
-SUMMARY:Progress report deadline - Fall
-UID:9d00ddea-409c-467e-87ef-808fff0a8566@9d00.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261218
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Spring 2027 Phase I Registration - Current students only (End) - Spring
-UID:3696964e-9400-40e1-a387-d61ec7d7de84@3696.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270506
-DTEND;VALUE=DATE:20270508
-CATEGORIES:Spring,Graduation
-DESCRIPTION:\nSpring\,Graduation
-SUMMARY:Commencement - Spring
-UID:fe479cdf-8977-47a8-9e09-2c7867a8f42d@fe47.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20261215
-CATEGORIES:Fall,Reading Period
-DESCRIPTION:\nFall\,Reading Period
-SUMMARY:Reading period. No exams 8:00 AM - 10:50 AM Eastern Time - Fall
-UID:06528385-b533-4116-b6c1-db54a6790671@0652.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260522
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 Phase I registration - Current students only (End) - Fall
-UID:ec53015a-8423-4deb-8d6f-e49113cc6f84@ec53.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260619
-CATEGORIES:Holiday,Summer-Full
-DESCRIPTION:\nHoliday\,Summer-Full
-SUMMARY:Official institute holiday -- Juneteenth - Summer-Full
-UID:2260b8e6-444b-4c13-9914-c1bff10d8bce@2260.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270115
-CATEGORIES:Spring,Thesis
-DESCRIPTION:\nSpring\,Thesis
-SUMMARY:Thesis deadline for enrollment waiver - Spring
-UID:6a7fa922-fd13-437e-b871-e8ac190980d8@6a7f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261016
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:First Half Term (End) - Fall
-UID:55fb3fb1-7c0a-4465-b459-7c5378ea1512@55fb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270115
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Tuition Assistance Program (TAP) registration for Spring 2027 (End) - Spring
-UID:09b16bcb-b9e1-4e54-b886-95ece3bf734a@09b1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261125
-CATEGORIES:Fall,Recess
-DESCRIPTION:\nFall\,Recess
-SUMMARY:Student recess. No classes. Campus open. - Fall
-UID:3a68f156-f0f5-4e50-a6c6-578783f08ded@3a68.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260706
-CATEGORIES:Grades,Summer-Full
-DESCRIPTION:\nGrades\,Summer-Full
-SUMMARY:Grade mode change deadline. Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, must be submitted no later than 4:00 PM Eastern Time. - Summer-Full
-UID:4b98174e-c363-4e57-95c9-f1ab7fd1c986@4b98.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261029
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Spring 2027 Phase I Time Tickets Post by 6:00 pm ET - Current Students only - Spring
-UID:cc2783c0-d971-4175-99ad-97888b060fc1@cc27.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270301
-CATEGORIES:Spring,Faculty
-DESCRIPTION:\nSpring\,Faculty
-SUMMARY:Progress report deadline - Spring
-UID:abf042d7-cb9e-4848-b6f0-c3db4bb243cd@abf0.org
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270513
+CATEGORIES:Graduation,Spring
+DESCRIPTION:\nGraduation\,Spring
+SUMMARY:Degree confirmation for all spring candidates. Diplomas will be delivered within 8 weeks. - Spring
+UID:51563500-10cd-42de-93b6-731af276259e@5156.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260522
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Summer 2026 registration closes at 11:59 PM Eastern Time. Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 PM Eastern Time. No changes to/from audit mode permitted after the registration deadline. - Summer-Full
-UID:99526eed-d587-4a1f-8bbf-5f2afe0a41ee@9952.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261217
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Second Half Term (End) - Fall
-UID:1cc5204e-e1c8-4f32-8122-8b4be5e32f65@1cc5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260201
-DTEND;VALUE=DATE:20260201
-CATEGORIES:Summer-Full,Readmission
-DESCRIPTION:\nSummer-Full\,Readmission
-SUMMARY:Readmission application for Summer 2026 deadline for student with academic standing of dropped or review - Summer-Full
-UID:115b0f35-6187-4367-88e8-b19be5f94147@115b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260907
-CATEGORIES:Holiday,Fall
-DESCRIPTION:\nHoliday\,Fall
-SUMMARY:Official institute holiday -- Labor Day - Fall
-UID:13f72fb9-c48c-485e-bb92-17b06fbcb596@13f7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260702
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 registration (Continuing OMS Computer Science only) (End) - Fall
-UID:7a5d4209-4c45-410b-95a5-7b2c72c82884@7a5d.org
+CATEGORIES:Thesis,Summer-Full
+DESCRIPTION:\nThesis\,Summer-Full
+SUMMARY:Thesis deadline for enrollment waiver - Summer-Full
+UID:026deb47-2fff-4a62-8efd-f11da3bd08e3@026d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270108
-CATEGORIES:Spring,Graduation
-DESCRIPTION:\nSpring\,Graduation
+CATEGORIES:Graduation,Spring
+DESCRIPTION:\nGraduation\,Spring
 SUMMARY:Online Application for Graduation (OAG) for Spring 2027 deadline for undergraduate students - Spring
-UID:305b9c2c-3ca3-485a-adc2-fcf39ef980ff@305b.org
+UID:dcaf567b-bba9-41a6-964e-6be8f47b2c14@dcaf.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270104
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Tuition Assistance Program (TAP) registration for Spring 2027 (Start) - Spring
-UID:b4b221e3-e573-40b3-9a17-087cbb08a10b@b4b2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260601
-CATEGORIES:Fall,Readmission
-DESCRIPTION:\nFall\,Readmission
-SUMMARY:Readmission application for Fall 2026 deadline for students with academic standing of dropped or review - Fall
-UID:317d362c-81ac-42c5-90c7-beea421b3099@317d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261102
-CATEGORIES:Grades,Fall
-DESCRIPTION:\nGrades\,Fall
-SUMMARY:Grade mode change deadline. Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, must be submitted no later than 4:00 PM Eastern Time. - Fall
-UID:2d9203d5-513d-4bc0-9cb1-5bb27ec58a14@2d92.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260522
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Summer 2026 registration (one phase only) - Current students only (End) - Summer-Full
-UID:7b674b22-16de-4a16-a8a1-a795762b1748@7b67.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260406
-DTEND;VALUE=DATE:20260406
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Schedule of Classes available online - Summer-Full
-UID:1073a430-6f39-43f8-bcc9-db343e88edc9@1073.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260526
-DTEND;VALUE=DATE:20260526
-CATEGORIES:Payment,Summer-All
-DESCRIPTION:\nPayment\,Summer-All
-SUMMARY:Payment deadline 4:00 PM Eastern Time - Summer-All
-UID:e10b318f-db60-4137-ad75-e4a838e1d6ce@e10b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261211
-CATEGORIES:Fall,Thesis
-DESCRIPTION:\nFall\,Thesis
-SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time - Fall
-UID:919b0f69-ace8-4b45-8217-59343b9ff959@919b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260810
-CATEGORIES:Summer-Full,Faculty
-DESCRIPTION:\nSummer-Full\,Faculty
-SUMMARY:Grade submission deadline. All grades must be entered online by 12:00 PM Eastern Time. - Summer-Full
-UID:9889ca8b-9ff1-4a85-8802-3c3db4f20dfa@9889.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260406
-DTEND;VALUE=DATE:20260406
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Schedule of Classes available online - Fall
-UID:28fcb615-0d79-48e0-b816-6bf7b8b799d3@28fc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260702
-DTEND;VALUE=DATE:20260702
-CATEGORIES:Summer-Full,Recess
-DESCRIPTION:\nSummer-Full\,Recess
-SUMMARY:Student recess. No classes. Campus open. - Summer-Full
-UID:98a42710-7960-4e9e-a0c9-95278ca7004b@98a4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260518
-DTEND;VALUE=DATE:20260518
-CATEGORIES:Summer-Full,Classes
-DESCRIPTION:\nSummer-Full\,Classes
-SUMMARY:First day of classes for Full Session Summer - Summer-Full
-UID:2b0317b1-0187-4993-bf16-1f033f499f36@2b03.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260922
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:First Half Semester Withdraw deadline - Fall
-UID:46d473d6-fc66-4cb2-976a-61442b5222f5@46d4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260413
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 Phase I registration - Current students only (Start) - Fall
-UID:7f0969a4-77e2-4449-8da4-b34de4ab19ac@7f09.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270119
-DTEND;VALUE=DATE:20270119
-CATEGORIES:Payment,Spring
-DESCRIPTION:\nPayment\,Spring
-SUMMARY:Payment deadline 4:00 PM Eastern Time - Spring
-UID:53f40098-babe-4356-bbfc-956b45828894@53f4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270506
-CATEGORIES:Exams,Spring
-DESCRIPTION:\nExams\,Spring
-SUMMARY:Final exams. Policy in the Catalog under Rules/Regulations XII. Contact the Academic Scheduling team in the Registrar's Office with questions. - Spring
-UID:9deaceb8-3893-4dbb-8bfb-0b3a501725b1@9dea.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260811
-CATEGORIES:Grades,Summer-Full
-DESCRIPTION:\nGrades\,Summer-Full
-SUMMARY:Final grades available online after 6:00 PM Eastern Time - Summer-Full
-UID:522904c7-2a52-4d75-a873-20b0761a0c33@5229.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270305
-DTEND;VALUE=DATE:20270305
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Second Minimester Withdraw Deadline - Spring
-UID:9e1bfb39-4220-4b23-8c67-bdab8764e15c@9e1b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270319
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:Second Minimester (End) - Spring
-UID:9f29cdff-0452-4e16-9521-bed344a051b9@9f29.org
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260831
+CATEGORIES:Fall,Payment
+DESCRIPTION:\nFall\,Payment
+SUMMARY:Payment deadline 4:00 PM Eastern Time - Fall
+UID:71d7dea1-5808-4908-8617-cb1763c33b7d@71d7.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260828
 CATEGORIES:Registration,Fall
 DESCRIPTION:\nRegistration\,Fall
 SUMMARY:Fall 2026 Phase II registration (End) - Fall
-UID:f5eb67ff-cb2a-492d-ab04-701ed8e7c6ef@f5eb.org
+UID:03ae0bf4-700a-4ca7-b1b1-31444e29318c@03ae.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270126
-CATEGORIES:Spring,Faculty
-DESCRIPTION:\nSpring\,Faculty
-SUMMARY:Verification of student participation in class. All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern Time. - Spring
-UID:689d0ec9-4c61-4317-9505-f907dde51307@689d.org
+DTSTART;VALUE=DATE:20260511
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Tuition Assistance Program (TAP) registration for Summer 2026 (Start) - Summer-Full
+UID:ef20f112-8549-4f10-8e44-24f1cece30d6@ef20.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20270101
-CATEGORIES:Holiday,Fall
-DESCRIPTION:\nHoliday\,Fall
-SUMMARY:Official institute holiday -- Winter break - Fall
-UID:d4a3f711-98f3-452a-a6a2-46640a5f466d@d4a3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270111
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:First Minimester (Start) - Spring
-UID:dd41551f-20d0-4b2a-a537-e6c19ff320fb@dd41.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261209
-CATEGORIES:Fall,Reading Period
-DESCRIPTION:\nFall\,Reading Period
-SUMMARY:Reading period - Fall
-UID:43a7e31d-d13f-44da-b4ae-26b06dd067fd@43a7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261217
-CATEGORIES:Exams,Fall
-DESCRIPTION:\nExams\,Fall
-SUMMARY:Final exams. Policy in the Catalog under Rules/Regulations XII. Contact the Academic Scheduling team in the Registrar's Office with questions. - Fall
-UID:613d0f2d-2642-4465-a1ca-37b022e3a894@613d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Final instructional class days for Fall 2026 - Fall
-UID:83d3e23d-e77d-4a43-b571-1ad821ab28e9@83d3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270101
-CATEGORIES:Spring,Holiday
-DESCRIPTION:\nSpring\,Holiday
-SUMMARY:Official institute holiday -- New Year's Day - Spring
-UID:f3141179-6022-40db-875a-c255e72e4eaf@f314.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260201
-DTEND;VALUE=DATE:20260201
-CATEGORIES:Fall,Readmission
-DESCRIPTION:\nFall\,Readmission
-SUMMARY:Readmission application for Fall 2026 opens - Fall
-UID:e67be6f6-1bf0-4144-84c8-f31aa00482b1@e67b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260824
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:First day of classes for Fall 2026 - Fall
-UID:504d1931-06c2-4388-923b-9c1089769c92@504d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270129
-DTEND;VALUE=DATE:20270129
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:First Minimester Withdraw Deadline - Spring
-UID:f8f607cf-8df0-4944-a473-f19d60aaf1d0@f8f6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260908
-CATEGORIES:Spring,Graduation
-DESCRIPTION:\nSpring\,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Spring 2027 opens - Spring
-UID:c2486bb7-7f28-4c52-89fd-6bff2740d1f3@c248.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260522
-DTEND;VALUE=DATE:20260522
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 Phase I registration closes at 11:59 PM Eastern Time - Fall
-UID:4bfda3b7-610f-4abb-b79d-f9c7dd7f1bab@4bfd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270317
-DTEND;VALUE=DATE:20270317
-CATEGORIES:Spring,Grades
-DESCRIPTION:\nSpring\,Grades
-SUMMARY:Grade mode change deadline. Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, must be submitted no later than 11:59 PM Eastern Time. - Spring
-UID:de569cb8-70cd-4b54-92e6-aa76d8e5e442@de56.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260828
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Fall 2026 Phase II registration closes at 11:59 PM Eastern Time. Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 pm Eastern Time. No changes to/from audit mode permitted after the registration deadline. - Fall
-UID:9c8b54a9-942c-401b-bad6-8dd508d7f000@9c8b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260831
-CATEGORIES:Payment,Fall
-DESCRIPTION:\nPayment\,Fall
-SUMMARY:Payment deadline 4:00 PM Eastern Time - Fall
-UID:5652916c-94d1-4ffe-b2f4-2c43639d8b67@5652.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270212
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:First Minimester (End) - Spring
-UID:3103e947-aa92-42e1-82ce-2a8873faa916@3103.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270506
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:Second Half Term (End) - Spring
-UID:b5447d6b-e3f2-46e9-8f34-30d9a96861ff@b544.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270111
-DTEND;VALUE=DATE:20270111
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:First day of classes for Spring 2027 - Spring
-UID:02030ce8-c3d6-4d76-8d9d-9fe69a153fc1@0203.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270513
-CATEGORIES:Spring,Graduation
-DESCRIPTION:\nSpring\,Graduation
-SUMMARY:Degree confirmation for all spring candidates. Diplomas will be delivered within 8 weeks. - Spring
-UID:db497d19-6900-4adc-a795-8cf66c0ec29b@db49.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260828
-CATEGORIES:Fall,Graduation
-DESCRIPTION:\nFall\,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Fall 2026 deadline for graduate students - Fall
-UID:37d3a6ea-001a-4680-a047-b1897addf14b@37d3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261221
-CATEGORIES:Fall,Faculty
-DESCRIPTION:\nFall\,Faculty
-SUMMARY:Grade submission deadline. All grades must be entered online by 12:00 PM Eastern Time. - Fall
-UID:f65bd0b1-cd51-42e7-98ed-c7d7c3a386a9@f65b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260925
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:First Minimester (End) - Fall
-UID:6e111633-564f-4939-8c41-1e736dae6b9f@6e11.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260824
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:First Half Term (Start) - Fall
-UID:abd8321f-31a7-4f7e-98a6-2511fac14d6c@abd8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260813
-CATEGORIES:Summer-Full,Graduation
-DESCRIPTION:\nSummer-Full\,Graduation
-SUMMARY:Degree confirmation for all Summer candidates. Diplomas will be delivered within 8 weeks. - Summer-Full
-UID:a891de68-59f5-4ce1-b0eb-2cc3ad228f55@a891.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270215
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:Second Minimester (Start) - Spring
-UID:014d6d81-e3b3-4eba-906c-e3f4329cb82c@014d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270104
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Spring 2027 Phase II Registration - Current and New students (Start) - Spring
-UID:39c643a4-eec7-4faf-ac89-e2628c7b700a@39c6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260401
-CATEGORIES:Summer-Full,Readmission
-DESCRIPTION:\nSummer-Full\,Readmission
-SUMMARY:Readmission application for Summer 2026 deadline for student with academic standing other than dropped or review - Summer-Full
-UID:9c3910b0-1f67-4428-9773-d52aaeb533f2@9c39.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270118
-DTEND;VALUE=DATE:20270118
-CATEGORIES:Spring,Holiday
-DESCRIPTION:\nSpring\,Holiday
-SUMMARY:Official institute holiday -- Martin Luther King\, Jr. Day - Spring
-UID:e832c081-4b6a-43f1-8bc8-1e92aca1f024@e832.org
+DTSTART;VALUE=DATE:20260413
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Summer 2026 registration (one phase only) - Current students only (Start) - Summer-Full
+UID:fae6cc2c-632f-47a2-9a9d-ac8306542732@fae6.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260703
@@ -829,223 +129,31 @@ DTEND;VALUE=DATE:20260703
 CATEGORIES:Holiday,Summer-Full
 DESCRIPTION:\nHoliday\,Summer-Full
 SUMMARY:Official institute holiday -- Independence Day recognized - Summer-Full
-UID:a68effe5-7202-4945-b7a8-9445bef37651@a68e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260409
-DTEND;VALUE=DATE:20260409
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Time tickets for Fall 2026 Phase I registration post at 6:00 PM Eastern Time - Current students only - Fall
-UID:24b83e31-d393-4691-844d-93922a0af457@24b8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270205
-DTEND;VALUE=DATE:20270205
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:First Half Term Withdraw Deadline - Spring
-UID:cf580775-bae7-4bc4-b0fb-4464211c8754@cf58.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260413
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Summer 2026 registration (one phase only) - Current students only (Start) - Summer-Full
-UID:2cc32e47-0af4-4199-b88c-b23699b31f83@2cc3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270111
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:First Half Term (Start) - Spring
-UID:3054d3e6-5a60-4981-ad20-39334eb60d83@3054.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261014
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Second Minimester Withdraw Deadline - Fall
-UID:ef247597-0dc1-4f3e-8ef7-2564a36b6ce1@ef24.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270115
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Spring 2027 Phase II Registration - Current and New students (End) - Spring
-UID:b9b5004f-d26a-452c-84ae-266469d4c8f0@b9b5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260731
-CATEGORIES:Summer-Full,Reading Period
-DESCRIPTION:\nSummer-Full\,Reading Period
-SUMMARY:Reading period - Summer-Full
-UID:26dc6da0-2eec-4376-b752-1c02f81b4cbd@26dc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270115
-DTEND;VALUE=DATE:20270115
-CATEGORIES:Spring,Graduation
-DESCRIPTION:\nSpring\,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Spring 2027 deadline - Spring
-UID:63ec8ce1-8d96-4aa7-ad51-ef257664b39d@63ec.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260602
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Time tickets for Fall 2026 registration post at 6:00 PM Eastern Time (Continuing OMS Computer Science only) - Fall
-UID:7896ee0d-eaa6-4f66-bd00-70d8ee9aecad@7896.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260828
-CATEGORIES:Fall,Thesis
-DESCRIPTION:\nFall\,Thesis
-SUMMARY:Thesis deadline for enrollment waiver - Fall
-UID:41618e53-a655-4d7c-a5f4-641ecd1a3834@4161.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260415
-DTEND;VALUE=DATE:20260415
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Cross-registration deadline for Summer 2026 - Summer-Full
-UID:b2d94970-f70b-46c7-bf13-c99b1983622e@b2d9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260928
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:Second Minimester (Start) - Fall
-UID:574e781b-d44c-4cb8-95be-fc7d86134ec3@574e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-CATEGORIES:Fall,Recess
-DESCRIPTION:\nFall\,Recess
-SUMMARY:Fall break. No Classes. Campus open. - Fall
-UID:5fa3f5a3-8bc7-4d5d-88c9-8d9bc58cc7fa@5fa3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261102
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Spring 2027 Phase I Registration - Current students only (Start) - Spring
-UID:42bf3df8-d008-4a20-8b0a-af10f1b714ee@42bf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270506
-DTEND;VALUE=DATE:20270506
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:End of term - Spring
-UID:95a183d4-ddd1-40ea-849e-22517e655d5c@95a1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260731
-CATEGORIES:Summer-Full,Thesis
-DESCRIPTION:\nSummer-Full\,Thesis
-SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time - Summer-Full
-UID:d9b66499-8df7-43de-9594-2fe450ef5874@d9b6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261224
-DTEND;VALUE=DATE:20261224
-CATEGORIES:Spring,Registration
-DESCRIPTION:\nSpring\,Registration
-SUMMARY:Time tickets for Spring 2027 Phase II registration post at 6:00 PM Eastern Time - Spring
-UID:bb1522ae-300e-4aa6-9114-c32bddf3face@bb15.org
+UID:0b3f7f4f-bbd4-4794-abd0-63f2bd42a830@0b3f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270312
-CATEGORIES:Spring,Holiday
-DESCRIPTION:\nSpring\,Holiday
+CATEGORIES:Holiday,Spring
+DESCRIPTION:\nHoliday\,Spring
 SUMMARY:Spring Break - Spring
-UID:d373ea4b-eb65-4d39-ad0d-c22dfcb579c4@d373.org
+UID:26a3f8d6-627a-489c-b19f-0b829cc2b92c@26a3.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270510
-DTEND;VALUE=DATE:20270510
-CATEGORIES:Spring,Faculty
-DESCRIPTION:\nSpring\,Faculty
-SUMMARY:Grade submission deadline. All grades must be entered online by 12:00 PM Eastern Time. - Spring
-UID:7b231626-34c7-4845-8316-5d3840db2bfa@7b23.org
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261012
+CATEGORIES:Fall,Faculty
+DESCRIPTION:\nFall\,Faculty
+SUMMARY:Progress report deadline - Fall
+UID:373ecd06-8d26-481f-ab4f-788f04d0290d@373e.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260806
-CATEGORIES:Exams,Summer-Full
-DESCRIPTION:\nExams\,Summer-Full
-SUMMARY:Final exams. Policy in the Catalog under Rules/Regulations XII. Contact the Academic Scheduling team in the Registrar's Office with questions. - Summer-Full
-UID:1c3c0ff1-7a1b-48c2-9f56-bafa87242a22@1c3c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270301
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:Second Half Term (Start) - Spring
-UID:73aa1a8b-e5b5-4266-9cd7-a7b6eababbce@73aa.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260824
-CATEGORIES:Fall,Classes
-DESCRIPTION:\nFall\,Classes
-SUMMARY:First Minimester (Start) - Fall
-UID:09ae4cb3-342f-4eef-94f1-67a0904b8ce2@09ae.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260522
-DTEND;VALUE=DATE:20260522
-CATEGORIES:Summer-Full,Thesis
-DESCRIPTION:\nSummer-Full\,Thesis
-SUMMARY:Thesis deadline for enrollment waiver - Summer-Full
-UID:a7663284-32c3-443f-ab4b-e830b979cdfd@a766.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270226
-CATEGORIES:Spring,Classes
-DESCRIPTION:\nSpring\,Classes
-SUMMARY:First Half Term (End) - Spring
-UID:a859c5ac-7c51-4d38-9844-03170d5af131@a859.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261031
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Withdrawal deadline. Last day to withdraw from a single course or from school with W grades for Fall Semester 2026 by 11:59 PM Eastern Time. Students must withdraw from all classes in order to receive a refund. - Fall
-UID:ffe2a3f6-4f01-4553-9f82-f6e9cf81c48e@ffe2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261031
-CATEGORIES:Registration,Fall
-DESCRIPTION:\nRegistration\,Fall
-SUMMARY:Second Half Semester Withdraw Deadline - Fall
-UID:b99b4c5a-6d45-41c0-b3b3-b4e13f09030e@b99b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260120
-DTEND;VALUE=DATE:20260120
-CATEGORIES:Summer-Full,Graduation
-DESCRIPTION:\nSummer-Full\,Graduation
-SUMMARY:Online Application for Graduation (OAG) for Summer 2026 opens. Fall Online Application for Graduation (OAG) for Fall 2026 will open in February. - Summer-Full
-UID:88076e77-11eb-4afa-8683-ee7d52f06994@8807.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260409
-DTEND;VALUE=DATE:20260409
-CATEGORIES:Registration,Summer-Full
-DESCRIPTION:\nRegistration\,Summer-Full
-SUMMARY:Time tickets for Summer 2026 registration post at 6:00 PM Eastern Time - Current students only - Summer-Full
-UID:bea7b30d-26d0-458e-935e-9834427136f4@bea7.org
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270119
+CATEGORIES:Payment,Spring
+DESCRIPTION:\nPayment\,Spring
+SUMMARY:Payment deadline 4:00 PM Eastern Time - Spring
+UID:a9d7cf7c-e617-4f8f-b7d8-6ba150839ae8@a9d7.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260702
@@ -1053,15 +161,101 @@ DTEND;VALUE=DATE:20260702
 CATEGORIES:Registration,Fall
 DESCRIPTION:\nRegistration\,Fall
 SUMMARY:Fall 2026 registration closes at 11:59 PM Eastern Time (Continuing OMS Computer Science only) - Fall
-UID:faf22b93-a7f1-4909-a91a-0e1ae881fe64@faf2.org
+UID:7f2c4a57-4f7b-4494-aaab-d49445cc9219@7f2c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270429
-CATEGORIES:Spring,Reading Period
-DESCRIPTION:\nSpring\,Reading Period
-SUMMARY:Reading Period (8:00 AM to 2:40 PM) - Spring
-UID:e118875a-097e-4d3b-af8b-8839907e8b53@e118.org
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260731
+CATEGORIES:Reading Period,Summer-Full
+DESCRIPTION:\nReading Period\,Summer-Full
+SUMMARY:Reading period - Summer-Full
+UID:35313d00-4f99-4132-9925-d22d55d6d7e9@3531.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260401
+CATEGORIES:Readmission,Summer-Full
+DESCRIPTION:\nReadmission\,Summer-Full
+SUMMARY:Readmission application for Summer 2026 deadline for student with academic standing other than dropped or review - Summer-Full
+UID:be62bd61-496f-4d55-864b-b6c1c8297147@be62.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260806
+CATEGORIES:Classes,Summer-Full
+DESCRIPTION:\nClasses\,Summer-Full
+SUMMARY:End of term - Summer-Full
+UID:7a5674b0-95c6-4fd9-ba5e-e865f7b73a68@7a56.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270508
+CATEGORIES:Graduation,Spring
+DESCRIPTION:\nGraduation\,Spring
+SUMMARY:Commencement - Spring
+UID:8c4782de-3438-4016-b2d1-2ac921ae4872@8c47.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261102
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Spring 2027 Phase I Registration - Current students only (Start) - Spring
+UID:175b14df-1737-46ac-a295-88c853aad5c2@175b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260201
+CATEGORIES:Readmission,Summer-Full
+DESCRIPTION:\nReadmission\,Summer-Full
+SUMMARY:Readmission application for Summer 2026 deadline for student with academic standing of dropped or review - Summer-Full
+UID:8188680f-cbc5-4adc-9bff-034471138616@8188.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270301
+CATEGORIES:Spring,Faculty
+DESCRIPTION:\nSpring\,Faculty
+SUMMARY:Progress report deadline - Spring
+UID:86ad48f7-0b2c-442e-aed1-aa2888d1e498@86ad.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260409
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Time tickets for Summer 2026 registration post at 6:00 PM Eastern Time - Current students only - Summer-Full
+UID:9a493dcc-fa01-4555-bb42-a07600b8df6f@9a49.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261102
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Third Minimester (Start) - Fall
+UID:b2d48426-e9e4-4915-8dee-006a1da540d0@b2d4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Final instructional class days for Fall 2026 - Fall
+UID:e050b9a2-41dd-41aa-bafc-5ba738e231f3@e050.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270428
+CATEGORIES:Reading Period,Spring
+DESCRIPTION:\nReading Period\,Spring
+SUMMARY:Reading period - Spring
+UID:822742de-ae29-4802-b126-c0d2eb70e041@8227.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260201
+CATEGORIES:Readmission,Fall
+DESCRIPTION:\nReadmission\,Fall
+SUMMARY:Readmission application for Fall 2026 opens - Fall
+UID:c02b0188-f672-44f2-adb6-7b28ca4e8315@c02b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260525
@@ -1069,7 +263,355 @@ DTEND;VALUE=DATE:20260525
 CATEGORIES:Holiday,Summer-Full
 DESCRIPTION:\nHoliday\,Summer-Full
 SUMMARY:Official institute holiday -- Memorial Day - Summer-Full
-UID:171dd75c-23d0-4f44-a44d-e8dea98850ef@171d.org
+UID:c1f638d2-dd52-49bd-b5e0-70f7134fa802@c1f6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260925
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:First Minimester (End) - Fall
+UID:703993ad-eec6-479a-bc55-ce5b5cd8c1d2@7039.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270104
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Tuition Assistance Program (TAP) registration for Spring 2027 (Start) - Spring
+UID:4bfa8a89-2520-42ec-89dd-5650b729eb79@4bfa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270101
+CATEGORIES:Holiday,Spring
+DESCRIPTION:\nHoliday\,Spring
+SUMMARY:Official institute holiday -- New Year's Day - Spring
+UID:db16e192-b1b7-4d53-823f-63cf08cff4ab@db16.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270504
+CATEGORIES:Reading Period,Spring
+DESCRIPTION:\nReading Period\,Spring
+SUMMARY:Reading period (8:00 AM to 10:50 AM) - Spring
+UID:2f3d2874-a59c-400b-baa5-bcef0712b3bd@2f3d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261030
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Second Minimester (End) - Fall
+UID:931c46dd-6783-4c6f-b142-7592dfd7d80a@931c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Fall 2026 Phase I registration - Current students only (End) - Fall
+UID:966f3e00-02a2-4966-8ee1-4d3fb225453b@966f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260601
+CATEGORIES:Readmission,Fall
+DESCRIPTION:\nReadmission\,Fall
+SUMMARY:Readmission application for Fall 2026 deadline for students with academic standing of dropped or review - Fall
+UID:4a29f97b-b807-4af4-b883-7bcad9ec059d@4a29.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270205
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:First Half Term Withdraw Deadline - Spring
+UID:1ccb448a-bc5f-4050-81e6-44bc993e03ba@1ccb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261014
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Spring 2027 Schedule of Classes available online - Spring
+UID:1ccf44b5-ba01-45a1-819a-7930677b9b13@1ccf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260909
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:First Minimester Withdraw Deadline - Fall
+UID:3ed97d12-2a7d-4d96-b425-930d356f1d27@3ed9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261217
+CATEGORIES:Exams,Fall
+DESCRIPTION:\nExams\,Fall
+SUMMARY:Final exams. Policy in the Catalog under Rules/Regulations XII. Contact the Academic Scheduling team in the Registrar's Office with questions. - Fall
+UID:af20591e-b08b-467b-8cbd-c16f298f15a6@af20.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270111
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:First Half Term (Start) - Spring
+UID:ee45c34d-fed0-477d-8447-69e9136fee07@ee45.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261016
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:First Half Term (End) - Fall
+UID:30f124f6-aee3-4527-b3d5-0e14666f88ce@30f1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260908
+CATEGORIES:Fall,Faculty
+DESCRIPTION:\nFall\,Faculty
+SUMMARY:Verification of student participation in class. All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern Time. - Fall
+UID:ba1afeea-221d-4c48-bcfd-b10d92360f21@ba1a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261014
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Second Minimester Withdraw Deadline - Fall
+UID:ba5b427a-8726-4c02-b2e5-85d653d55f2a@ba5b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260526
+CATEGORIES:Payment,Summer-All
+DESCRIPTION:\nPayment\,Summer-All
+SUMMARY:Payment deadline 4:00 PM Eastern Time - Summer-All
+UID:2ef9a15b-845f-4c10-bd05-7cd0ac96047b@2ef9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260811
+CATEGORIES:Grades,Summer-Full
+DESCRIPTION:\nGrades\,Summer-Full
+SUMMARY:Final grades available online after 6:00 PM Eastern Time - Summer-Full
+UID:c6dd091c-1297-4914-bef9-d4353f8ebd79@c6dd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260907
+CATEGORIES:Fall,Holiday
+DESCRIPTION:\nFall\,Holiday
+SUMMARY:Official institute holiday -- Labor Day - Fall
+UID:ab26bac4-02e9-4fb8-91d7-a5d7df4812fd@ab26.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261215
+CATEGORIES:Fall,Reading Period
+DESCRIPTION:\nFall\,Reading Period
+SUMMARY:Reading period. No exams 8:00 AM - 10:50 AM Eastern Time - Fall
+UID:1a6bdfd8-7939-4515-a671-b37b24710570@1a6b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260922
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:First Half Semester Withdraw deadline - Fall
+UID:33134c7c-aae3-4b05-a9e6-16ca462ffd0f@3313.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270301
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:Second Half Term (Start) - Spring
+UID:3c1e88cf-c4f8-4241-8b32-7421058e2d28@3c1e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261031
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Withdrawal deadline. Last day to withdraw from a single course or from school with W grades for Fall Semester 2026 by 11:59 PM Eastern Time. Students must withdraw from all classes in order to receive a refund. - Fall
+UID:43c7ca26-3ff9-40eb-af94-8c46f813614d@43c7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260406
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Schedule of Classes available online - Summer-Full
+UID:d8f7f887-2dfe-4239-9748-4e051fdcbaae@d8f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270510
+CATEGORIES:Spring,Faculty
+DESCRIPTION:\nSpring\,Faculty
+SUMMARY:Grade submission deadline. All grades must be entered online by 12:00 PM Eastern Time. - Spring
+UID:5d79a444-15fe-47d6-837b-de78e05ecb63@5d79.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260609
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Fall 2026 registration (Continuing OMS Computer Science only) (Start) - Fall
+UID:aa7985fc-2d35-48a9-b456-434a00adb1e2@aa79.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270226
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:First Half Term (End) - Spring
+UID:84a63d01-1bd4-4793-a3e9-68bec25da36a@84a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270305
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Second Minimester Withdraw Deadline - Spring
+UID:9adc9601-9b40-40ea-b99d-0e369e6d5cb7@9adc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260806
+CATEGORIES:Exams,Summer-Full
+DESCRIPTION:\nExams\,Summer-Full
+SUMMARY:Final exams. Policy in the Catalog under Rules/Regulations XII. Contact the Academic Scheduling team in the Registrar's Office with questions. - Summer-Full
+UID:cc56b6b1-7ef7-4614-9fd1-c2ec103ff9a6@cc56.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270317
+CATEGORIES:Spring,Grades
+DESCRIPTION:\nSpring\,Grades
+SUMMARY:Grade substitution deadline. Last day to apply for grade substitution. Forms must be submitted no later than 11:59 PM Eastern Time. - Spring
+UID:14124f27-8893-4638-99d3-a56fa009c61d@1412.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+CATEGORIES:Classes,Summer-Full
+DESCRIPTION:\nClasses\,Summer-Full
+SUMMARY:Final instructional class days for Full Session Summer - Summer-Full
+UID:f8be9f23-fd40-4a67-b6b7-912184b6a707@f8be.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261019
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Second Half Term (Start) - Fall
+UID:0a35b37c-b1d6-42e5-9566-f54dae351fa6@0a35.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260706
+CATEGORIES:Grades,Summer-Full
+DESCRIPTION:\nGrades\,Summer-Full
+SUMMARY:Grade mode change deadline. Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, must be submitted no later than 4:00 PM Eastern Time. - Summer-Full
+UID:4c3bc10a-2f1c-4da4-b817-05ea560131c6@4c3b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270317
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Second Half Term Withdraw Deadline - Spring
+UID:e21923d0-d5de-4da1-9841-c9aae0791b59@e219.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260619
+CATEGORIES:Holiday,Summer-Full
+DESCRIPTION:\nHoliday\,Summer-Full
+SUMMARY:Official institute holiday -- Juneteenth - Summer-Full
+UID:40eda760-f323-4603-a7ae-288957510fdb@40ed.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:Final instructional class days for Spring 2027 - Spring
+UID:0a70b612-f25e-4677-a46a-0c5664cf1f5d@0a70.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261014
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Second Minimester Withdraw Deadline - Fall
+UID:4c72d826-2d77-47d8-827b-86eef865a3e6@4c72.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260602
+CATEGORIES:Summer-Full,Faculty
+DESCRIPTION:\nSummer-Full\,Faculty
+SUMMARY:Verification of student participation in class. All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern Time. - Summer-Full
+UID:341d7d22-8f6c-48ae-963b-8a2fc73e703c@341d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260518
+CATEGORIES:Classes,Summer-Full
+DESCRIPTION:\nClasses\,Summer-Full
+SUMMARY:First day of classes for Full Session Summer - Summer-Full
+UID:f4d9d437-23e0-457d-a783-53d38899d19b@f4d9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270111
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:First Minimester (Start) - Spring
+UID:2d205497-fc18-4d60-a4e9-e40803631f90@2d20.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260828
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Fall 2026 Phase II registration closes at 11:59 PM Eastern Time. Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 pm Eastern Time. No changes to/from audit mode permitted after the registration deadline. - Fall
+UID:9e2167b8-b1c8-4306-913a-271144562acf@9e21.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270511
+CATEGORIES:Spring,Grades
+DESCRIPTION:\nSpring\,Grades
+SUMMARY:Final grades available online after 6:00 PM Eastern Time. Final grades available online by 12:00 PM (Noon) Eastern Time - Spring
+UID:994a9b64-7229-4b2e-926e-c0e95b1894b1@994a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261217
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Third Minimester (End) - Fall
+UID:c7f5c2e3-0315-4664-8c5f-df454df627f4@c7f5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261029
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Spring 2027 Phase I Time Tickets Post by 6:00 pm ET - Current Students only - Spring
+UID:8745cb71-d4fa-4aa6-903a-c65946d622e9@8745.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270317
+CATEGORIES:Spring,Grades
+DESCRIPTION:\nSpring\,Grades
+SUMMARY:Grade mode change deadline. Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, must be submitted no later than 11:59 PM Eastern Time. - Spring
+UID:c7746315-4374-45c5-8af6-a7e410e0fa28@c774.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260813
+CATEGORIES:Graduation,Summer-Full
+DESCRIPTION:\nGraduation\,Summer-Full
+SUMMARY:Degree confirmation for all Summer candidates. Diplomas will be delivered within 8 weeks. - Summer-Full
+UID:74fafb72-d6ae-4ed0-b416-bb04b93fa3da@74fa.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260821
@@ -1077,22 +619,480 @@ DTEND;VALUE=DATE:20260821
 CATEGORIES:Fall,Graduation
 DESCRIPTION:\nFall\,Graduation
 SUMMARY:Online Application for Graduation (OAG) for Fall 2026 deadline for undergraduate students - Fall
-UID:d79fd3d7-ec09-4919-882f-40cdbbbbb78e@d79f.org
+UID:4229879c-b326-4a02-9fb3-4c63794753fd@4229.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261222
+CATEGORIES:Fall,Grades
+DESCRIPTION:\nFall\,Grades
+SUMMARY:Final grades available online after 6:00 PM Eastern Time - Fall
+UID:f1c1daf8-beab-4f76-8870-073b6c0b2d0c@f1c1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270126
+CATEGORIES:Spring,Faculty
+DESCRIPTION:\nSpring\,Faculty
+SUMMARY:Verification of student participation in class. All instructors are required to verify student participation in class. Reports are due at 4:00 PM Eastern Time. - Spring
+UID:f6dd82f0-8db0-4f39-9bcf-8d02824035c6@f6dd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260731
+CATEGORIES:Thesis,Summer-Full
+DESCRIPTION:\nThesis\,Summer-Full
+SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time - Summer-Full
+UID:23bd058e-cf41-4950-b4cf-08f21f41c623@23bd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260824
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:First Half Term (Start) - Fall
+UID:33ae350b-8271-475a-87a6-b5da879483a4@33ae.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260602
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Time tickets for Fall 2026 registration post at 6:00 PM Eastern Time (Continuing OMS Computer Science only) - Fall
+UID:c926ab19-11df-47a6-8ed4-4692ec23e28e@c926.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270215
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:Second Minimester (Start) - Spring
+UID:e04d5fe5-0e3f-4db1-baba-6e8e07e21a66@e04d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270423
+CATEGORIES:Thesis,Spring
+DESCRIPTION:\nThesis\,Spring
+SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time - Spring
+UID:96d878ba-0f1a-41d5-88de-093ccf6cef80@96d8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260701
+CATEGORIES:Readmission,Fall
+DESCRIPTION:\nReadmission\,Fall
+SUMMARY:Readmission application for Fall 2026 deadline for students with academic standing other than dropped or review - Fall
+UID:03efcb28-1e02-4656-8e5e-09170cd8f772@03ef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270506
+CATEGORIES:Exams,Spring
+DESCRIPTION:\nExams\,Spring
+SUMMARY:Final exams. Policy in the Catalog under Rules/Regulations XII. Contact the Academic Scheduling team in the Registrar's Office with questions. - Spring
+UID:2d36d082-d3a4-4af1-8d98-321f38ec5165@2d36.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261210
+CATEGORIES:Fall,Reading Period
+DESCRIPTION:\nFall\,Reading Period
+SUMMARY:Reading period. No exams 8:00 AM - 2:40 PM Eastern Time - Fall
+UID:4e517f4b-47d1-4f09-b6f8-b653e826affe@4e51.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260828
+CATEGORIES:Fall,Thesis
+DESCRIPTION:\nFall\,Thesis
+SUMMARY:Thesis deadline for enrollment waiver - Fall
+UID:adcb87b3-4273-477d-81a0-f25037fc929e@adcb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260810
+CATEGORIES:Summer-Full,Faculty
+DESCRIPTION:\nSummer-Full\,Faculty
+SUMMARY:Grade submission deadline. All grades must be entered online by 12:00 PM Eastern Time. - Summer-Full
+UID:c5f5e9b8-dfc0-49e3-bdbf-9ae8e04baa4f@c5f5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:Second Half Term (End) - Spring
+UID:f9746d6b-441f-475a-bae9-3181d230d0fe@f974.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260529
-CATEGORIES:Summer-Full,Graduation
-DESCRIPTION:\nSummer-Full\,Graduation
+CATEGORIES:Graduation,Summer-Full
+DESCRIPTION:\nGraduation\,Summer-Full
 SUMMARY:Online Application for Graduation (OAG) for Summer 2026 deadline - Summer-Full
-UID:4b45592e-9e8e-4d4c-b6c6-421a41d912aa@4b45.org
+UID:1ea6cc28-7459-4481-9252-193c07f94f70@1ea6.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270428
-DTEND;VALUE=DATE:20270428
-CATEGORIES:Spring,Reading Period
-DESCRIPTION:\nSpring\,Reading Period
-SUMMARY:Reading period - Spring
-UID:46916468-816a-43a0-a9b9-b6a7861092a0@4691.org
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260828
+CATEGORIES:Fall,Graduation
+DESCRIPTION:\nFall\,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Fall 2026 deadline for graduate students - Fall
+UID:fa7f7b9d-787b-4231-8325-afe994bc3ef9@fa7f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260702
+CATEGORIES:Summer-Full,Recess
+DESCRIPTION:\nSummer-Full\,Recess
+SUMMARY:Student recess. No classes. Campus open. - Summer-Full
+UID:64927108-b99a-4b45-a3c6-70305eb276d9@6492.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270326
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:Second Minimester (End) - Spring
+UID:0e3f5857-c723-428e-bf64-2638c56d4db5@0e3f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260824
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:First day of classes for Fall 2026 - Fall
+UID:f49ac9fd-8224-4b7a-bc2e-0a9a9aeba332@f49a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270111
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:First day of classes for Spring 2027 - Spring
+UID:9b82a093-02a6-42f3-a3f1-af5ebad73e1d@9b82.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260415
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Cross-registration deadline for Summer 2026 - Summer-Full
+UID:eb1911e9-6c66-48af-9bca-78afda35c001@eb19.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260406
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Schedule of Classes available online - Fall
+UID:70959202-eb96-494e-bc15-6bb12ce5401a@7095.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260702
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Fall 2026 registration (Continuing OMS Computer Science only) (End) - Fall
+UID:be37b233-2251-46cd-9f22-449db452c7fd@be37.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261125
+CATEGORIES:Fall,Recess
+DESCRIPTION:\nFall\,Recess
+SUMMARY:Student recess. No classes. Campus open. - Fall
+UID:268aeac0-90c0-4f7d-a88f-9d45db2b4454@268a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Summer 2026 registration (one phase only) - Current students only (End) - Summer-Full
+UID:d862b219-2418-4cc8-b974-1a398034926f@d862.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261102
+CATEGORIES:Fall,Grades
+DESCRIPTION:\nFall\,Grades
+SUMMARY:Grade substitution deadline. Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time. - Fall
+UID:51994bf4-d212-441b-a480-fd4c502cda52@5199.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261102
+CATEGORIES:Fall,Grades
+DESCRIPTION:\nFall\,Grades
+SUMMARY:Grade mode change deadline. Last day to change grade more from Letter/Grade to Pass/Fail and vice versa. No changes to or from audit mode permitted after the last day of registration. Completed forms\, including advisor signature\, must be submitted no later than 4:00 PM Eastern Time. - Fall
+UID:d5fe51ac-b6c1-4f05-b7ec-1c979bc88dbc@d5fe.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260817
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Fall 2026 Phase II registration (Start) - Fall
+UID:28434197-e3a8-45db-9ae4-9701fab59997@2843.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260522
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Fall 2026 Phase I registration closes at 11:59 PM Eastern Time - Fall
+UID:7bbfad42-f661-44ab-8b10-abe80182d55f@7bbf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270506
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:End of term - Spring
+UID:480db7b1-b06b-4010-84aa-5d2b787279b5@480d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260522
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Summer 2026 registration closes at 11:59 PM Eastern Time. Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 PM Eastern Time. No changes to/from audit mode permitted after the registration deadline. - Summer-Full
+UID:9ef67d75-f211-415c-9313-948b5ec8ecb4@9ef6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260706
+CATEGORIES:Grades,Summer-Full
+DESCRIPTION:\nGrades\,Summer-Full
+SUMMARY:Grade substitution deadline. Last day to apply for grade substitution. Forms must be submitted no later than 4:00 PM Eastern Time. - Summer-Full
+UID:e9d41f2b-e0ad-4055-b7de-63c2ad43bc68@e9d4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261218
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Spring 2027 Phase I Registration - Current students only (End) - Spring
+UID:a4754db9-3b1e-4a20-ac89-e101497e9aec@a475.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260928
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Second Minimester (Start) - Fall
+UID:2559b0bf-dfc9-4f2f-89de-ab97dd9cda0a@2559.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270115
+CATEGORIES:Graduation,Spring
+DESCRIPTION:\nGraduation\,Spring
+SUMMARY:Online Application for Graduation (OAG) for Spring 2027 deadline - Spring
+UID:3942c338-71f8-429e-a81b-fa27a55ae0f0@3942.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261031
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Second Half Semester Withdraw Deadline - Fall
+UID:9137c949-78c2-4af5-9ddf-3d23d59e7476@9137.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270115
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Spring 2027 Phase II Registration - Current and New students (End) - Spring
+UID:50547ab1-7692-481c-a6de-b150516356fa@5054.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261224
+CATEGORIES:Fall,Graduation
+DESCRIPTION:\nFall\,Graduation
+SUMMARY:Degree confirmation for all fall candidates. Diplomas will be delivered within 12 weeks. - Fall
+UID:f23b5110-8012-45c9-9087-08e163519203@f23b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270118
+CATEGORIES:Holiday,Spring
+DESCRIPTION:\nHoliday\,Spring
+SUMMARY:Official institute holiday -- Martin Luther King\, Jr. Day - Spring
+UID:88fb74f8-1748-4181-acaf-542f827ace3c@88fb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261211
+CATEGORIES:Fall,Thesis
+DESCRIPTION:\nFall\,Thesis
+SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time - Fall
+UID:2a196a8e-7b0c-4240-90d4-71e083be7e9a@2a19.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260715
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Cross-registration deadline for Fall 2026 - Fall
+UID:141a53fa-4e56-4e0a-aa13-f0cc9d860d86@141a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270115
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Phase II registration for Spring 2027 closes at 11:59 PM Eastern Time. Last day to register\, make schedule changes\, and/or drop without a W grade by 11:59 pm Eastern Time. No changes to/from audit mode permitted after the registration deadline. - Spring
+UID:660a2fec-cdb7-406c-ac0d-db6b16bfc5a1@660a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270115
+CATEGORIES:Thesis,Spring
+DESCRIPTION:\nThesis\,Spring
+SUMMARY:Thesis deadline for enrollment waiver - Spring
+UID:8341171a-67f0-43e2-9c33-b96037bf49ae@8341.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260120
+CATEGORIES:Graduation,Summer-Full
+DESCRIPTION:\nGraduation\,Summer-Full
+SUMMARY:Online Application for Graduation (OAG) for Summer 2026 opens. Fall Online Application for Graduation (OAG) for Fall 2026 will open in February. - Summer-Full
+UID:d89050a0-3ef6-4b83-9f06-c7df762b5917@d890.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260409
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Time tickets for Fall 2026 Phase I registration post at 6:00 PM Eastern Time - Current students only - Fall
+UID:6a1f3ca4-7dad-4a55-822a-fc11cde258a3@6a1f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260615
+CATEGORIES:Summer-Full,Faculty
+DESCRIPTION:\nSummer-Full\,Faculty
+SUMMARY:Progress report deadline. - Summer-Full
+UID:4c82e2b3-b19d-4be8-897b-2070ac0ed0bf@4c82.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260705
+CATEGORIES:Registration,Summer-Full
+DESCRIPTION:\nRegistration\,Summer-Full
+SUMMARY:Withdrawal deadline. Last day to withdraw from a single course or from school with W grades for Full Session Summer Semester 2026 by 11:59 PM Eastern Time. Students must withdraw from all classes in order to receive a refund. - Summer-Full
+UID:79cc6550-7101-4d1c-a2cc-fec412cfbc31@79cc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260824
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:First Minimester (Start) - Fall
+UID:613be8dc-983b-4775-9d46-2c187d5203e7@613b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270429
+CATEGORIES:Reading Period,Spring
+DESCRIPTION:\nReading Period\,Spring
+SUMMARY:Reading Period (8:00 AM to 2:40 PM) - Spring
+UID:74e8db1f-591b-4e8f-8a72-a3e165cd7448@74e8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+CATEGORIES:Fall,Recess
+DESCRIPTION:\nFall\,Recess
+SUMMARY:Fall break. No Classes. Campus open. - Fall
+UID:79860337-90e6-49df-8c36-6b7119125e56@7986.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261211
+CATEGORIES:Fall,Thesis
+DESCRIPTION:\nFall\,Thesis
+SUMMARY:Thesis and required master's thesis forms due no later than 12:00 PM Eastern Time - Fall
+UID:a9dacdb8-786f-4b93-be96-e17c0747dc7b@a9da.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261217
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:End of term - Fall
+UID:99f5a48c-90e5-4bd9-adf2-06e8bed9bf4d@99f5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260731
+CATEGORIES:Thesis,Summer-Full
+DESCRIPTION:\nThesis\,Summer-Full
+SUMMARY:Thesis and required doctoral thesis forms due no later than 12:00 PM Eastern Time - Summer-Full
+UID:ebfbe01c-1338-41b3-81e1-0ff13bb3f40c@ebfb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+CATEGORIES:Fall,Holiday
+DESCRIPTION:\nFall\,Holiday
+SUMMARY:Official institute holiday -- Thanksgiving break - Fall
+UID:61f16a4d-22e2-4076-ace9-f6541fcf6a2f@61f1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261217
+CATEGORIES:Classes,Fall
+DESCRIPTION:\nClasses\,Fall
+SUMMARY:Second Half Term (End) - Fall
+UID:b3cffd36-abdc-4323-b624-b70db27ccec3@b3cf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261221
+CATEGORIES:Fall,Faculty
+DESCRIPTION:\nFall\,Faculty
+SUMMARY:Grade submission deadline. All grades must be entered online by 12:00 PM Eastern Time. - Fall
+UID:d9beceba-8b1e-4c62-83d2-be125870dbe6@d9be.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270104
+CATEGORIES:Registration,Spring
+DESCRIPTION:\nRegistration\,Spring
+SUMMARY:Spring 2027 Phase II Registration - Current and New students (Start) - Spring
+UID:3286f092-8087-4883-aa75-67588df381f6@3286.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260120
+CATEGORIES:Fall,Graduation
+DESCRIPTION:\nFall\,Graduation
+SUMMARY:Online Application for Graduation (OAG) for Fall 2026 opens - Fall
+UID:4b7bd670-0892-4190-a042-656381cf9331@4b7b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261209
+CATEGORIES:Fall,Reading Period
+DESCRIPTION:\nFall\,Reading Period
+SUMMARY:Reading period - Fall
+UID:bd332b8c-a462-4462-b4e3-6759c000e1fc@bd33.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270212
+CATEGORIES:Classes,Spring
+DESCRIPTION:\nClasses\,Spring
+SUMMARY:First Minimester (End) - Spring
+UID:0ead0307-e588-4d19-b613-f6df13f8af01@0ead.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260813
+CATEGORIES:Registration,Fall
+DESCRIPTION:\nRegistration\,Fall
+SUMMARY:Time tickets for Fall 2026 Phase II registration post at 6:00 PM Eastern Time - Fall
+UID:efa3b63e-2a6c-42ad-af36-558b8e096422@efa3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260908
+CATEGORIES:Graduation,Spring
+DESCRIPTION:\nGraduation\,Spring
+SUMMARY:Online Application for Graduation (OAG) for Spring 2027 opens - Spring
+UID:fab91043-511b-4bb3-9448-7453be13f2f8@fab9.org
 END:VEVENT
 END:VCALENDAR
